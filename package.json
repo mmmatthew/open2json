@@ -1,5 +1,5 @@
 {
-  "name": "wiki2Json",
+  "name": "wiki2json",
   "version": "1.0.0",
   "description": "Collect and merge drinking fountains from wikidata and OpenStreetMap",
   "main": "lib/index.js",
