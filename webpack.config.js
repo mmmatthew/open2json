@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 
 module.exports = {
-    mode: "production",
+    mode: "development",
     entry: {
       'wiki2json': './src/index.ts',
       'wiki2json.min': './src/index.ts'

@@ -16,9 +16,13 @@ export class Wiki2json {
    * @param options options for queries
    */
   public query(sources: string[], bbox: BoundingBox, options = this.options): Promise<FeatureCollection> {
+
+
+      // if osm is requested
     if (sources.indexOf('osm') >= 0) {
-      // if only osm is requested
       return queryOsm(bbox, options).then(data => standardizeOsm(data));
+
+    //   other cases are not yet handled
     } else {
       throw new Error(
         `Source string array not recognized (${JSON.stringify(sources)}). Use an array of "osm" and/or "wikidata"`,
@@ -26,5 +30,3 @@ export class Wiki2json {
     }
   }
 }
-
-export const bbbox = baselBoundingBox;
