@@ -9,7 +9,7 @@ module.exports = {
       'wiki2json.min': './src/index.ts'
     },
     output: {
-      path: path.resolve(__dirname, '_bundles'),
+      path: path.resolve(__dirname, 'dist'),
       filename: '[name].js',
       libraryTarget: 'umd',
       library: 'wiki2json',
