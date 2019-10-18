@@ -12920,7 +12920,10 @@ function queryOsm(bbox, options) {
             else {
                 resolve(data);
             }
-        }, { flatProperties: true });
+        }, {
+            overpassUrl: 'https://z.overpass-api.de/api/interpreter',
+            flatProperties: true
+        });
     });
 }
 exports.queryOsm = queryOsm;
