@@ -18,11 +18,11 @@ const defaultOsmQueryOptions = {
 export function queryOsm(bbox: BoundingBox, options = defaultOsmQueryOptions): Promise<FeatureCollection> {
     return new Promise((resolve, reject) => {
         // create query for overpass
-        const query = buildOsmQuery(bbox, options.tag_filters);
+        const queryString = buildOsmQueryString(bbox, options.tag_filters);
 
         // run query with overpass. See https://github.com/perliedman/query-overpass
         query_overpass(
-            query,
+            queryString,
             (error: Error, data: FeatureCollection) => {
                 if (error) {
                     reject(error);
@@ -38,9 +38,9 @@ export function queryOsm(bbox: BoundingBox, options = defaultOsmQueryOptions): P
     });
 }
 
-export function buildOsmQuery(bbox: BoundingBox, tagFilters: string[]) {
-    const query = `[out:json];(${tagFilters
+export function buildOsmQueryString(bbox: BoundingBox, tagFilters: string[]) {
+    const queryString = `[out:json];(${tagFilters
         .map(tagFilter => `node[${tagFilter}](${bbox.latMin},${bbox.lonMin},${bbox.latMax},${bbox.lonMax});`)
         .join('')});out;`;
-    return query;
+    return queryString;
 }
