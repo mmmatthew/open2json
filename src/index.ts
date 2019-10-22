@@ -4,7 +4,7 @@ import { queryOsm } from './query.osm';
 import { standardizeOsm } from './standardize.osm';
 import { BoundingBox } from './types';
 
-export class Wiki2json {
+export class Open2json {
   private options = {
     tag_filters: ['amenity=drinking_water'],
   };

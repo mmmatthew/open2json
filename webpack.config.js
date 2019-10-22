@@ -3,16 +3,15 @@ var webpack = require('webpack');
 
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: {
-      'wiki2json': './src/index.ts',
-      'wiki2json.min': './src/index.ts'
+      'open2json.min': './src/index.ts'
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
       filename: '[name].js',
       libraryTarget: 'umd',
-      library: 'wiki2json',
+      library: 'open2json',
       umdNamedDefine: true
     },
     resolve: {
