@@ -1,7 +1,7 @@
 {
-  "name": "wiki2json",
+  "name": "open2json",
   "version": "1.0.0",
-  "description": "Collect and merge drinking fountains from wikidata and OpenStreetMap",
+  "description": "Collect and merge elements from wikidata and OpenStreetMap",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -20,15 +20,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmmatthew/wiki2Json.git"
+    "url": "git+https://github.com/mmmatthew/open2json.git"
   },
   "keywords": [],
   "author": "Matthew Moy de Vitry",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/mmmatthew/wiki2Json/issues"
+    "url": "https://github.com/mmmatthew/open2json/issues"
   },
-  "homepage": "https://github.com/mmmatthew/wiki2Json#readme",
+  "homepage": "https://github.com/mmmatthew/open2json#readme",
   "devDependencies": {
     "@types/jest": "^24.0.19",
     "jest": "^24.9.0",
