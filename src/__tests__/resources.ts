@@ -2,10 +2,10 @@ import { FeatureCollection } from 'geojson';
 import { BoundingBox } from '../types';
 
 export const baselBoundingBox: BoundingBox = {
-  latMax: 47.60477416894759,
-  latMin: 47.517200697839414,
-  lonMax: 7.676696777343749,
-  lonMin: 7.544174194335937,
+  latMax: 47.7,
+  latMin: 47.5,
+  lonMax: 7.7,
+  lonMin: 7.5,
 };
 
 export const osmGeoJson: FeatureCollection = {

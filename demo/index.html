@@ -46,6 +46,7 @@
             style: 'mapbox://styles/mapbox/light-v10',
             center: [7.589, 47.56],
             zoom: 15,
+            minZoom: 12,
             pitch: 0,
             hash: true
         });
@@ -59,15 +60,17 @@
                 map.getBounds().getNorth()
             ];
             let poly = turf.bboxPolygon(bbox);
-            let buffer = turf.bbox(turf.buffer(poly, 1, { steps: 64 }));
+            let buffer = turf.bbox(turf.buffer(poly, 0.1, { steps: 64 }));
             bbox = {
                 lonMin: buffer[0],
                 latMin: buffer[1],
                 lonMax: buffer[2],
                 latMax: buffer[3]
             };
-            let provider = new open2json.Open2json();
-            provider.query(['osm'], bbox).then(data => {
+            let provider = new open2json.Provider({
+                wdImageWidth: 120
+            });
+            provider.query(['wikidata'], bbox).then(data => {
                 // when data is loaded, update map data source
                 // create data source or just change data
                 if (map.getSource('water-src') === undefined) {
@@ -119,9 +122,13 @@
         }
 
         function showPopup(e){
+            f = e.features[0];
             // show popup when click a water spot
-            var coordinates = e.features[0].geometry.coordinates.slice();
-            var description = JSON.stringify(e.features[0].properties);
+            var coordinates = f.geometry.coordinates.slice();
+            var description = `
+            <h3>${f.properties.name}</h3>
+                <img src='${f.properties.image}' width='120px'>
+            `;
             
             // Ensure that if the map is zoomed out such that multiple
             // copies of the feature are visible, the popup appears
@@ -158,7 +165,10 @@
 
             map.addControl(new MapboxGeocoder({
                 accessToken: mapboxgl.accessToken,
-                mapboxgl: mapboxgl
+                mapboxgl: mapboxgl,
+                flyTo: {
+                    maxDuration: 1000
+                }
             }));
 
         });

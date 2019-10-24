@@ -1,6 +1,9 @@
 {
 	"folders": [
 		{
+			"path": "./src/__test_sdfa_"
+		},
+		{
 			"path": "."
 		}
 	]

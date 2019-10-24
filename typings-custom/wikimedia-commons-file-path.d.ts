@@ -1,0 +1,1 @@
+declare module 'wikimedia-commons-file-path';

@@ -1,24 +1,19 @@
-import { privateName } from '@babel/types';
 import { FeatureCollection } from 'geojson';
 import * as query_overpass from 'query-overpass';
+import { defaultOptions } from './defaults';
 import { BoundingBox } from './types';
 
 /**
  * Function to query OSM with a bounding box and return simplified geojson object
  */
+export function queryOsm(bbox: BoundingBox, options = defaultOptions): (Promise<FeatureCollection>) {
 
-// Default query options
-const defaultOsmQueryOptions = {
-    tag_filters: [
-        // see https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#Tag_request_clauses_.28or_.22tag_filters.22.29
-        'amenity=drinking_water',
-    ],
-};
+    // update options just in case passed options do not contain all necessary params
+    options = Object.assign(defaultOptions, options);
 
-export function queryOsm(bbox: BoundingBox, options = defaultOsmQueryOptions): Promise<FeatureCollection> {
     return new Promise((resolve, reject) => {
         // create query for overpass
-        const queryString = buildOsmQueryString(bbox, options.tag_filters);
+        const queryString = buildOsmQueryString(bbox, options.overpassTagFilters);
 
         // run query with overpass. See https://github.com/perliedman/query-overpass
         query_overpass(
@@ -31,7 +26,7 @@ export function queryOsm(bbox: BoundingBox, options = defaultOsmQueryOptions): P
                 }
             },
             {
-                overpassUrl: 'https://z.overpass-api.de/api/interpreter',
+                overpassUrl: options.overpassUrl,
                 flatProperties: true
             },
         );

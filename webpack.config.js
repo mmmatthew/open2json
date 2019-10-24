@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 
 module.exports = {
-    mode: "production",
+    mode: "development",
     entry: {
       'open2json.min': './src/index.ts'
     },
@@ -19,7 +19,9 @@ module.exports = {
       extensions: ['.ts', '.tsx', '.js']
     },
     devtool: 'source-map',
-    plugins: [],
+    plugins: [
+      new webpack.DefinePlugin({ "global.GENTLY": false })
+    ],
     module: {
       rules: [{
         test: /\.tsx?$/,

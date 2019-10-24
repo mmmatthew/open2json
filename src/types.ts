@@ -4,3 +4,11 @@ export interface BoundingBox {
   lonMin: number;
   lonMax: number;
 }
+
+export interface ProviderOptions {
+  overpassTagFilters: string[],
+  overpassUrl: string,
+  wdLangs: string,
+  wdEntityClasses: string[],
+  wdImageWidth: number
+}
