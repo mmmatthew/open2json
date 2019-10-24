@@ -39,18 +39,20 @@ export class Provider {
 
       // if osm is requested
     if (sources.includes('osm')) {
-      promises.push(queryOsm(bbox, options).then(data => standardizeOsm(data)));
+      promises.push(queryOsm(bbox, options)
+      .then(data => standardizeOsm(data)));
     }
 
       // if wikidata is requested
     if (sources.includes('wikidata')) {
-      return queryWikidata(bbox, options);
+      promises.push(queryWikidata(bbox, options));
     }
 
 
 
     // when all promises are finished, conflate if more than one geojson was returned
     return Promise.all(promises)
+    .then(dropEmpty)
     .then((geoJsonArray)=>{
       // if array is empty
     if(geoJsonArray.length === 0){
@@ -75,4 +77,26 @@ export class Provider {
       throw err;
     });
   }
+}
+
+/**
+ * Drop any geoJsons that have zero features
+ * @param geoJsonArray 
+ */
+function dropEmpty(geoJsonArray:FeatureCollection[]):FeatureCollection[]{
+  const toRemove:number[] = [];
+
+  // find objects to remove
+  geoJsonArray.forEach((fc, i, array)=>{
+    if(fc.features.length === 0){
+      toRemove.push(i);
+    }
+  })
+
+  // remove in reverse order
+  toRemove.reverse().forEach(i=>{
+    geoJsonArray.slice(i,1);
+  })
+
+  return geoJsonArray;
 }

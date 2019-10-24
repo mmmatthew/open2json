@@ -12,6 +12,7 @@ export function standardizeOsm(data: FeatureCollection): FeatureCollection {
       const newProps = {
         name: f.properties.name,
         id_osm: f.properties.id,
+        id_wikidata: f.properties.wikidata,
         image: f.properties.image,
       };
       f.properties = newProps;

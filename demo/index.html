@@ -46,7 +46,7 @@
             style: 'mapbox://styles/mapbox/light-v10',
             center: [7.589, 47.56],
             zoom: 15,
-            minZoom: 12,
+            // minZoom: 12,
             pitch: 0,
             hash: true
         });
@@ -70,7 +70,7 @@
             let provider = new open2json.Provider({
                 wdImageWidth: 120
             });
-            provider.query(['wikidata'], bbox).then(data => {
+            provider.query(['wikidata', 'osm'], bbox).then(data => {
                 // when data is loaded, update map data source
                 // create data source or just change data
                 if (map.getSource('water-src') === undefined) {
@@ -127,7 +127,12 @@
             var coordinates = f.geometry.coordinates.slice();
             var description = `
             <h3>${f.properties.name}</h3>
-                <img src='${f.properties.image}' width='120px'>
+            <p>
+                OSM id: ${f.properties.id_osm}<br/> 
+                Wikidata id: ${f.properties.id_wikidata}<br/> 
+                ${f.properties.mergedOn?`merged on ${f.properties.mergedOn}`:'unmerged'}
+                </p>
+                <img src='${f.properties.image || ''}' width='120px'>
             `;
             
             // Ensure that if the map is zoomed out such that multiple

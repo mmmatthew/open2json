@@ -10,5 +10,6 @@ export interface ProviderOptions {
   overpassUrl: string,
   wdLangs: string,
   wdEntityClasses: string[],
-  wdImageWidth: number
+  wdImageWidth: number,
+  conflateRadius: number
 }

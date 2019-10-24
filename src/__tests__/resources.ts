@@ -8,6 +8,13 @@ export const baselBoundingBox: BoundingBox = {
   lonMin: 7.5,
 };
 
+export const zuriBoundingBox: BoundingBox = {
+  latMax: 47.36852337512103,
+  latMin: 47.363692917827215,
+  lonMax: 8.539960384368896,
+  lonMin: 8.535035848617554,
+};
+
 export const osmGeoJson: FeatureCollection = {
   type: 'FeatureCollection',
   features: [

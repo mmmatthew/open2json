@@ -9,7 +9,7 @@ test('Wikidata query returns geoJson', () => {
     return provider
       .query(['wikidata'], baselBoundingBox)
       .then(data => {
-          console.log(JSON.stringify(data))
+          // console.log(JSON.stringify(data))
         expect(data).toHaveProperty('features');
       })
       .catch(error => {

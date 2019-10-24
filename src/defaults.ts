@@ -9,6 +9,11 @@ export const defaultOptions:ProviderOptions = {
     ],
     overpassUrl: 'https://z.overpass-api.de/api/interpreter',
     wdLangs: "en,de,fr,it,es",
-    wdEntityClasses: ['Q1630622'], //drinking water fountain (Q1630622)
-    wdImageWidth: 350
+    wdEntityClasses: [
+        'Q1630622',  // drinking water fountain (Q1630622)
+        'Q483453', // fountain (Q483453)
+        'Q43483'  // water well (Q43483)
+    ],
+    wdImageWidth: 350, // width in pixels of image to return
+    conflateRadius: 10 // search radius for fountains
 };

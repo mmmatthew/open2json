@@ -29,7 +29,6 @@ function createFeature(obj:any, imageWidth:number):Feature{
         properties: {
             id_wikidata: obj.place.value.split('entity\/')[1],
             image: getFilePath(obj.images.value.split(';')[0].split('Path\/')[1], imageWidth),
-            imageOriginal: obj.images.value.split(';')[0].split('Path\/')[1],
             name: obj.placeLabel.value,
         },
         geometry: {
@@ -56,7 +55,7 @@ function getFilePath(file:string, width:number) {
   // file = file.replace(/\s+/g, '_');
   const safe = sanitizeFilename(decodeURIComponent(file));
   const base = 'https://upload.wikimedia.org/wikipedia/commons';
-  const hash = md5(safe);
+  const hash = md5(decodeURIComponent(file).replace(/\s+/g, '_'));
   const ns = `${hash[0]}/${hash[0]}${hash[1]}`;
   if (width) {
     // thumbnail
@@ -79,7 +78,7 @@ function sanitizeFilename(filename:string){
   // this doesn't cover all situations, but the following doesn't work either
   // return encodeURI(title.replace(/ /g, '_'));
   return filename
-    .replace(/ /g, '_')
+    .replace(/\s+/g, '_')
     .replace(/,/g, '%2C')
     // .replace(/ü/g, '%C3%BC')
     .replace(/&/g, '%26');

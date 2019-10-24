@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import { Feature, FeatureCollection } from 'geojson';
+import { FeatureCollection } from 'geojson';
 import * as wdk from 'wikidata-sdk';
 import { baselBoundingBox } from './__tests__/resources';
 import { res2geojson } from './createGeoJson.wikidata';
