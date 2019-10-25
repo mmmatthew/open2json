@@ -3,7 +3,7 @@
 
 <head>
     <meta charset='utf-8' />
-    <title>Wiki2json Demo</title>
+    <title>Open2json Demo</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
     <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
@@ -46,7 +46,7 @@
             style: 'mapbox://styles/mapbox/light-v10',
             center: [7.589, 47.56],
             zoom: 15,
-            // minZoom: 12,
+            minZoom: 11,
             pitch: 0,
             hash: true
         });
@@ -173,8 +173,21 @@
                 mapboxgl: mapboxgl,
                 flyTo: {
                     maxDuration: 1000
-                }
+                },
+                trackProximity: false
             }));
+
+            
+            // Add geolocate control to the map.
+            let geolocater = map.addControl(new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: true
+            }));
+
+            // try to geolocate
+            geolocater.trigger();
 
         });
     </script>
