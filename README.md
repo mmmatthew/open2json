@@ -1,4 +1,4 @@
-# wiki2Json
+# open2Json
 Collect and merge drinking fountains from wikidata and OpenStreetMap
 
 ## Demo
