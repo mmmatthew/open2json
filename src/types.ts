@@ -6,10 +6,10 @@ export interface BoundingBox {
 }
 
 export interface ProviderOptions {
-  overpassTagFilters: string[],
-  overpassUrl: string,
-  wdLangs: string,
-  wdEntityClasses: string[],
-  wdImageWidth: number,
-  conflateRadius: number
+  overpassTagFilters: string[];
+  overpassUrl: string;
+  wdLangs: string;
+  wdEntityClasses: string[];
+  wdImageWidth: number;
+  conflateRadius: number;
 }

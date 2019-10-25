@@ -11,34 +11,32 @@ import { BoundingBox, ProviderOptions } from './types';
  * @param bbox Bounding box
  * @param options Query options
  */
-export function queryWikidata(bbox: BoundingBox, options:ProviderOptions=defaultOptions): (Promise<FeatureCollection>) {
+export function queryWikidata(
+  bbox: BoundingBox,
+  options: ProviderOptions = defaultOptions,
+): Promise<FeatureCollection> {
+  // update options just in case passed options do not contain all necessary params
+  options = Object.assign(defaultOptions, options);
+  bbox = Object.assign(baselBoundingBox, bbox);
 
-    // update options just in case passed options do not contain all necessary params
-    options = Object.assign(defaultOptions, options);
-    bbox = Object.assign(baselBoundingBox, bbox);
+  return new Promise((resolve, reject) => {
+    // create query string for overpass
+    const queryString = buildWikidataQueryString(bbox, options);
 
-    return new Promise((resolve, reject) => {
-        // create query string for overpass
-        const queryString = buildWikidataQueryString(bbox, options);
+    // create url from query string
+    const url = wdk.sparqlQuery(queryString);
 
-        // create url from query string
-        const url = wdk.sparqlQuery(queryString);
-
-        // run api query
-        Axios.get(url).then(res => {
-
-            if (res.status !== 200) {
-              const error = new Error(`Request to Wikidata Failed. Status Code: ${res.status}. Data: ${res}. Url: ${url}`);
-              return reject(error);
-              
-            }else{
-                // If the data was returned from wikidata, then proceed by turning it into a geoJSON
-                resolve(res2geojson(res.data, options.wdImageWidth));
-            }
-        }
-            
-        );
+    // run api query
+    Axios.get(url).then(res => {
+      if (res.status !== 200) {
+        const error = new Error(`Request to Wikidata Failed. Status Code: ${res.status}. Data: ${res}. Url: ${url}`);
+        return reject(error);
+      } else {
+        // If the data was returned from wikidata, then proceed by turning it into a geoJSON
+        resolve(res2geojson(res.data, options.wdImageWidth));
+      }
     });
+  });
 }
 
 /**
@@ -46,9 +44,9 @@ export function queryWikidata(bbox: BoundingBox, options:ProviderOptions=default
  * @param bbox Bounding box in which to query
  * @param options query options
  */
-export function buildWikidataQueryString(bbox: BoundingBox, options?:ProviderOptions) {
-    options = Object.assign(defaultOptions, options);
-    const queryString = `
+export function buildWikidataQueryString(bbox: BoundingBox, options?: ProviderOptions) {
+  options = Object.assign(defaultOptions, options);
+  const queryString = `
     SELECT DISTINCT ?place ?placeLabel 
 (group_concat(?image;separator=";") as ?images)
 (group_concat(?location;separator=";") as ?locations)
@@ -58,7 +56,7 @@ WHERE
           
 
           # The results of the spatial query are limited to instances or subclasses of entity classes
-          FILTER (${options.wdEntityClasses.map(eC=>`EXISTS { ?place wdt:P31/wdt:P279* wd:${eC} }`).join(' || ')}).
+          FILTER (${options.wdEntityClasses.map(eC => `EXISTS { ?place wdt:P31/wdt:P279* wd:${eC} }`).join(' || ')}).
           
           SERVICE wikibase:box {
             # this service allows points within a box to be queried (https://en.wikibooks.org/wiki/SPARQL/SERVICE_-_around_and_box) 
@@ -77,5 +75,5 @@ WHERE
         }
 groupby ?place ?placeLabel`;
 
-    return queryString;
+  return queryString;
 }
