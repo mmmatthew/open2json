@@ -4,16 +4,17 @@ Collect and merge drinking fountains from wikidata and OpenStreetMap
 ## Demo
 A working version of the code can be found here: [link](https://mmmatthew.github.io/open2json/demo)
 
-# Using open2json in your project
 
 ## Using open2json in a front-end project
 If your code runs in the browser without transpiling, then include the prepackaged code in your HTML head:
 
-`<script src='https://github.com/mmmatthew/open2json/dist/open2json.min.js'></script>`
+```html
+<script src='https://github.com/mmmatthew/open2json/dist/open2json.min.js'></script>
+```
 
 You can then obtain data asynchronously:
 
-```
+```javascript
 <script>
     bbox = {
         lonMin: 8.10,
