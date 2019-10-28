@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;src/conflate&quot; | open2json</title>
+	<title>&quot;src/query.wikidata&quot; | open2json</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_src_conflate_.html">&quot;src/conflate&quot;</a>
+					<a href="_src_query_wikidata_.html">&quot;src/query.wikidata&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;src/conflate&quot;</h1>
+			<h1>External module &quot;src/query.wikidata&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -73,10 +73,8 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_conflate_.html#conflate" class="tsd-kind-icon">conflate</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported"><a href="_src_conflate_.html#indexofsmallest" class="tsd-kind-icon">index<wbr>OfSmallest</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported"><a href="_src_conflate_.html#matchbylocation" class="tsd-kind-icon">match<wbr>ByLocation</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported"><a href="_src_conflate_.html#matchbyqid" class="tsd-kind-icon">match<wbr>ByQID</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_query_wikidata_.html#buildwikidataquerystring" class="tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_query_wikidata_.html#querywikidata" class="tsd-kind-icon">query<wbr>Wikidata</a></li>
 							</ul>
 						</section>
 					</div>
@@ -85,123 +83,76 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="conflate" class="tsd-anchor"></a>
-					<h3>conflate</h3>
+					<a name="buildwikidataquerystring" class="tsd-anchor"></a>
+					<h3>build<wbr>Wikidata<wbr>Query<wbr>String</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">conflate<span class="tsd-signature-symbol">(</span>osmGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span>, wikidataGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span></li>
+						<li class="tsd-signature tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String<span class="tsd-signature-symbol">(</span>bbox<span class="tsd-signature-symbol">: </span><a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/conflate.ts#L12">src/conflate.ts:12</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/19e34fb/src/query.wikidata.ts#L47">src/query.wikidata.ts:47</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Conflate two GeoJson objects, preferring OpenStreetMap if there is a conflict</p>
+									<p>build query string for wikidata</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>osmGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
+									<h5>bbox: <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>GeoJson from OpenStreetMap</p>
+										<p>Bounding box in which to query</p>
 									</div>
 								</li>
 								<li>
-									<h5>wikidataGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>GeoJson from Wikidata</p>
+										<p>query options</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="querywikidata" class="tsd-anchor"></a>
+					<h3>query<wbr>Wikidata</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">query<wbr>Wikidata<span class="tsd-signature-symbol">(</span>bbox<span class="tsd-signature-symbol">: </span><a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/19e34fb/src/query.wikidata.ts#L14">src/query.wikidata.ts:14</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Function to query Wikidata with a bounding box and return simplified geojson object</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>bbox: <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Bounding box</p>
 									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol"> =&nbsp;defaultOptions</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Provider Options</p>
+										<p>Query options</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">FeatureCollection</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-					<a name="indexofsmallest" class="tsd-anchor"></a>
-					<h3>index<wbr>OfSmallest</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<li class="tsd-signature tsd-kind-icon">index<wbr>OfSmallest<span class="tsd-signature-symbol">(</span>a<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/conflate.ts#L76">src/conflate.ts:76</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>a: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-					<a name="matchbylocation" class="tsd-anchor"></a>
-					<h3>match<wbr>ByLocation</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<li class="tsd-signature tsd-kind-icon">match<wbr>ByLocation<span class="tsd-signature-symbol">(</span>wikidataGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span>, osmGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span>, conflateRadius<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/conflate.ts#L41">src/conflate.ts:41</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>wikidataGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
-								</li>
-								<li>
-									<h5>osmGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
-								</li>
-								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> conflateRadius: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;defaultOptions.conflateRadius</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-					<a name="matchbyqid" class="tsd-anchor"></a>
-					<h3>match<wbr>ByQID</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<li class="tsd-signature tsd-kind-icon">match<wbr>ByQID<span class="tsd-signature-symbol">(</span>wikidataGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span>, osmGeoJson<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/conflate.ts#L25">src/conflate.ts:25</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>wikidataGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
-								</li>
-								<li>
-									<h5>osmGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -216,11 +167,8 @@
 					<li class="label tsd-is-external">
 						<span>Internals</span>
 					</li>
-					<li class="current tsd-kind-external-module">
-						<a href="_src_conflate_.html">"src/conflate"</a>
-					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_creategeojson_wikidata_.html">"src/create<wbr>Geo<wbr>Json.wikidata"</a>
+						<a href="_src_conflate_.html">"src/conflate"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="_src_defaults_.html">"src/defaults"</a>
@@ -231,11 +179,14 @@
 					<li class=" tsd-kind-external-module">
 						<a href="_src_query_osm_.html">"src/query.osm"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
+					<li class="current tsd-kind-external-module">
 						<a href="_src_query_wikidata_.html">"src/query.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="_src_standardize_osm_.html">"src/standardize.osm"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="_src_standardize_wikidata_.html">"src/standardize.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="_src_types_.html">"src/types"</a>
@@ -254,16 +205,10 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_src_conflate_.html#conflate" class="tsd-kind-icon">conflate</a>
+						<a href="_src_query_wikidata_.html#buildwikidataquerystring" class="tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String</a>
 					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="_src_conflate_.html#indexofsmallest" class="tsd-kind-icon">index<wbr>OfSmallest</a>
-					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="_src_conflate_.html#matchbylocation" class="tsd-kind-icon">match<wbr>ByLocation</a>
-					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="_src_conflate_.html#matchbyqid" class="tsd-kind-icon">match<wbr>ByQID</a>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_src_query_wikidata_.html#querywikidata" class="tsd-kind-icon">query<wbr>Wikidata</a>
 					</li>
 				</ul>
 			</nav>

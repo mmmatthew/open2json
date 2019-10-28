@@ -6,7 +6,7 @@ import { defaultOptions } from './defaults';
 import { queryOsm } from './query.osm';
 import { queryWikidata } from './query.wikidata';
 import { standardizeOsm } from './standardize.osm';
-import { BoundingBox } from './types';
+import { BoundingBox, ProviderOptions } from './types';
 
 export class Provider {
   private options = defaultOptions;
@@ -17,8 +17,9 @@ export class Provider {
     // update options with passed argument
     this.options = Object.assign(this.options, options);
   }
+
   /**
-   *
+   * Perform a query on wikidata and/or OpenStreetMap. results are conflated if both sources are requested.
    * @param sources list of strings (either 'wikidata' and/or 'osm') indicating which sources to use
    * @param bbox bounding box to query in
    * @param options options for queries
@@ -69,7 +70,7 @@ export class Provider {
           } else {
             // osm data is always first because of construction of promises array
             const [osmGeoJson, wikidataGeoJson] = geoJsonArray;
-            return conflate(osmGeoJson, wikidataGeoJson);
+            return conflate(osmGeoJson, wikidataGeoJson, options);
           }
         })
 

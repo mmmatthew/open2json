@@ -3,17 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;haversine&quot; | open2json</title>
+	<title>open2json</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 <header>
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">open2json</a>
+					<a href="index.html" class="title">open2json</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -53,69 +53,124 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../globals.html">Globals</a>
-				</li>
-				<li>
-					<a href="_typings_custom_haversine_.html">&quot;typings-custom/haversine&quot;</a>
-				</li>
-				<li>
-					<a href="_typings_custom_haversine_._haversine_.html">&quot;haversine&quot;</a>
+					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1>Module &quot;haversine&quot;</h1>
+			<h1> open2json</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#open2json" id="open2json" style="color: inherit; text-decoration: none;">
+					<h1>open2json</h1>
+				</a>
+				<p>Collect and merge drinking fountains from wikidata and OpenStreetMap</p>
+				<a href="#demo" id="demo" style="color: inherit; text-decoration: none;">
+					<h2>Demo</h2>
+				</a>
+				<p>A working version of the code can be found here: <a href="http://htmlpreview.github.io/?https://github.com/mmmatthew/open2json/blob/master/demo/index.html">link</a></p>
+				<a href="#using-open2json-in-a-front-end-project" id="using-open2json-in-a-front-end-project" style="color: inherit; text-decoration: none;">
+					<h2>Using open2json in a front-end project</h2>
+				</a>
+				<p>If your code runs in the browser without transpiling, then include the prepackaged code in your HTML head:</p>
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">'https://github.com/mmmatthew/open2json/dist/open2json.min.js'</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+				<p>You can then obtain data asynchronously:</p>
+				<pre><code class="language-javascript">&lt;script&gt;
+    bbox = {
+        <span class="hljs-attr">lonMin</span>: <span class="hljs-number">8.10</span>,
+        <span class="hljs-attr">latMin</span>: <span class="hljs-number">45.51</span>,
+        <span class="hljs-attr">lonMax</span>: <span class="hljs-number">8.15</span>,
+        <span class="hljs-attr">latMax</span>: <span class="hljs-number">45.52</span>
+    };
+
+    <span class="hljs-comment">// create provider</span>
+    <span class="hljs-keyword">let</span> provider = <span class="hljs-keyword">new</span> open2json.Provider();
+
+    <span class="hljs-comment">// perform query (on osm and wikidata simultaneously. results are conflated to gether.)</span>
+    provider.query([<span class="hljs-string">'wikidata'</span>, <span class="hljs-string">'osm'</span>], bbox)
+    .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
+        <span class="hljs-comment">// do something with the data (it is a geojson)</span>
+    })
+    .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
+        <span class="hljs-comment">// if an error occurs you can do something with it here.</span>
+    })</code></pre>
+				<a href="#using-open2json-via-npm-install" id="using-open2json-via-npm-install" style="color: inherit; text-decoration: none;">
+					<h2>Using open2json via npm install</h2>
+				</a>
+				<pre><code>&gt; npm install <span class="hljs-comment">--save open2json</span></code></pre><p>You can then use open2json in your code:</p>
+				<pre><code><span class="hljs-keyword">var</span> o2j = <span class="hljs-built_in">require</span>(<span class="hljs-string">'open2json'</span>);
+
+<span class="hljs-comment">// the rest is the same as the example above</span></code></pre>
+				<a href="#read-the-docs" id="read-the-docs" style="color: inherit; text-decoration: none;">
+					<h2>Read the docs</h2>
+				</a>
+				<p>Find the docs here: <a href="https://mmmatthew.github.io/open2json/dist/docs">link</a></p>
+				<a href="#for-contributors" id="for-contributors" style="color: inherit; text-decoration: none;">
+					<h1>For contributors</h1>
+				</a>
+				<a href="#build-open2json" id="build-open2json" style="color: inherit; text-decoration: none;">
+					<h2>Build open2json</h2>
+				</a>
+				<ul>
+					<li>install NodeJS</li>
+					<li>clone this repo</li>
+					<li>in the directory that the code was cloned into, run <code>npm install</code> in the command line</li>
+					<li>to build the module, run <code>npm run build</code>. This transpiles the TypeScript to Javascript (output into <code>/lib</code> directory) and packages the module for loading into a module (output into <code>/dist/webpack</code> directory). Additionally, the documentation is generated in the <code>dist/docs</code> directory.</li>
+				</ul>
+				<a href="#other-commands" id="other-commands" style="color: inherit; text-decoration: none;">
+					<h2>Other commands</h2>
+				</a>
+				<ul>
+					<li><strong>test the code</strong>: run <code>npm run test</code></li>
+					<li><strong>increment the package version</strong>: run <code>npm run version [patch | minor | major]</code></li>
+					<li><strong>publish to npm</strong>: run <code>npm run publish</code></li>
+				</ul>
+			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
 					<li class="globals  ">
-						<a href="../globals.html"><em>Globals</em></a>
+						<a href="globals.html"><em>Globals</em></a>
 					</li>
 					<li class="label tsd-is-external">
 						<span>Internals</span>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_conflate_.html">"src/conflate"</a>
+						<a href="modules/_src_conflate_.html">"src/conflate"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_creategeojson_wikidata_.html">"src/create<wbr>Geo<wbr>Json.wikidata"</a>
+						<a href="modules/_src_defaults_.html">"src/defaults"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_defaults_.html">"src/defaults"</a>
+						<a href="modules/_src_index_.html">"src/index"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_index_.html">"src/index"</a>
+						<a href="modules/_src_query_osm_.html">"src/query.osm"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_query_osm_.html">"src/query.osm"</a>
+						<a href="modules/_src_query_wikidata_.html">"src/query.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_query_wikidata_.html">"src/query.wikidata"</a>
+						<a href="modules/_src_standardize_osm_.html">"src/standardize.osm"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_standardize_osm_.html">"src/standardize.osm"</a>
+						<a href="modules/_src_standardize_wikidata_.html">"src/standardize.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_src_types_.html">"src/types"</a>
+						<a href="modules/_src_types_.html">"src/types"</a>
 					</li>
-					<li class="current tsd-kind-external-module">
-						<a href="_typings_custom_haversine_.html">"typings-<wbr>custom/haversine"</a>
-						<ul>
-							<li class="current tsd-kind-module tsd-parent-kind-external-module tsd-is-not-exported">
-								<a href="_typings_custom_haversine_._haversine_.html">"haversine"</a>
-							</li>
-						</ul>
+					<li class=" tsd-kind-external-module">
+						<a href="modules/_typings_custom_haversine_.html">"typings-<wbr>custom/haversine"</a>
 					</li>
 					<li class="label tsd-is-external">
 						<span>Externals</span>
 					</li>
 					<li class=" tsd-kind-external-module tsd-is-external">
-						<a href="_src___tests___resources_.html">"src/__tests__/resources"</a>
+						<a href="modules/_src___tests___resources_.html">"src/__tests__/resources"</a>
 					</li>
 				</ul>
 			</nav>
@@ -190,7 +245,7 @@
 	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
-<script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+<script src="assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

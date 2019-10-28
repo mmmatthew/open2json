@@ -2,7 +2,7 @@
 Collect and merge drinking fountains from wikidata and OpenStreetMap
 
 ## Demo
-A working version of the code can be found here: [link](https://mmmatthew.github.io/open2json/demo)
+A working version of the code can be found here: [link](http://htmlpreview.github.io/?https://github.com/mmmatthew/open2json/blob/master/demo/index.html)
 
 
 ## Using open2json in a front-end project

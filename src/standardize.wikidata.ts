@@ -6,7 +6,7 @@ import * as md5 from 'md5';
  * @param res Response from wikidata query
  * @param imageWidth Width of the image thumbnails that should be returned
  */
-export function res2geojson(res: any, imageWidth: number = 300): FeatureCollection {
+export function standardizeWikidata(res: any, imageWidth: number = 300): FeatureCollection {
   const geojson: FeatureCollection = {
     type: 'FeatureCollection',
     features: [],

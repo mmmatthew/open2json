@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "docs": "typedoc --out dist/docs --mode modules",
+    "docs": "typedoc --out docs --mode modules",
     "test": "jest --config jestconfig.json",
     "build": "tsc && webpack && npm run docs",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",

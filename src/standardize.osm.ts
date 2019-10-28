@@ -1,6 +1,11 @@
 import { stringLiteral } from '@babel/types';
 import { FeatureCollection } from 'geojson';
 
+
+/**
+ * standardize into simple geoJson format. Unavailable values are undefined
+ * @param data data returned by OpenStreetMap overpass API
+ */
 export function standardizeOsm(data: FeatureCollection): FeatureCollection {
   // loop through features
   data.features.forEach(f => {

@@ -8,7 +8,7 @@ module.exports = {
       'open2json.min': './src/index.ts'
     },
     output: {
-      path: path.resolve(__dirname, 'dist/webpack'),
+      path: path.resolve(__dirname, 'dist'),
       filename: '[name].js',
       libraryTarget: 'umd',
       library: 'open2json',

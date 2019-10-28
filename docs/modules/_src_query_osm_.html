@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Provider | open2json</title>
+	<title>&quot;src/query.osm&quot; | open2json</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,149 +56,83 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_src_index_.html">&quot;src/index&quot;</a>
-				</li>
-				<li>
-					<a href="_src_index_.provider.html">Provider</a>
+					<a href="_src_query_osm_.html">&quot;src/query.osm&quot;</a>
 				</li>
 			</ul>
-			<h1>Class Provider</h1>
+			<h1>External module &quot;src/query.osm&quot;</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-hierarchy">
-				<h3>Hierarchy</h3>
-				<ul class="tsd-hierarchy">
-					<li>
-						<span class="target">Provider</span>
-					</li>
-				</ul>
-			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Constructors</h3>
+							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_src_index_.provider.html#constructor" class="tsd-kind-icon">constructor</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
-							<h3>Properties</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_src_index_.provider.html#bbox" class="tsd-kind-icon">bbox</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_src_index_.provider.html#options" class="tsd-kind-icon">options</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="_src_index_.provider.html#sources" class="tsd-kind-icon">sources</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
-							<h3>Methods</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_src_index_.provider.html#query" class="tsd-kind-icon">query</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_query_osm_.html#buildosmquerystring" class="tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_query_osm_.html#queryosm" class="tsd-kind-icon">query<wbr>Osm</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
-					<a name="constructor" class="tsd-anchor"></a>
-					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Provider<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_src_index_.provider.html" class="tsd-signature-type">Provider</a></li>
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="buildosmquerystring" class="tsd-anchor"></a>
+					<h3>build<wbr>Osm<wbr>Query<wbr>String</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String<span class="tsd-signature-symbol">(</span>bbox<span class="tsd-signature-symbol">: </span><a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a>, tagFilters<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/index.ts#L14">src/index.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/19e34fb/src/query.osm.ts#L35">src/query.osm.ts:35</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">any</span></h5>
+									<h5>bbox: <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a></h5>
+								</li>
+								<li>
+									<h5>tagFilters: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_src_index_.provider.html" class="tsd-signature-type">Provider</a></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 						</li>
 					</ul>
 				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
-					<a name="bbox" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> bbox</h3>
-					<div class="tsd-signature tsd-kind-icon">bbox<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a><span class="tsd-signature-symbol"> =&nbsp;baselBoundingBox</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/index.ts#L13">src/index.ts:13</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
-					<a name="options" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> options</h3>
-					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol"> =&nbsp;defaultOptions</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/index.ts#L12">src/index.ts:12</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
-					<a name="sources" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagPrivate">Private</span> sources</h3>
-					<div class="tsd-signature tsd-kind-icon">sources<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&#x27;osm&#x27;]</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/index.ts#L14">src/index.ts:14</a></li>
-						</ul>
-					</aside>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="query" class="tsd-anchor"></a>
-					<h3>query</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">query<span class="tsd-signature-symbol">(</span>sources<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, bbox<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">&gt;</span></li>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="queryosm" class="tsd-anchor"></a>
+					<h3>query<wbr>Osm</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">query<wbr>Osm<span class="tsd-signature-symbol">(</span>bbox<span class="tsd-signature-symbol">: </span><a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/64dab90/src/index.ts#L26">src/index.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/19e34fb/src/query.osm.ts#L9">src/query.osm.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Function to query OSM with a bounding box and return simplified geojson object</p>
+								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> sources: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>list of strings (either &#39;wikidata&#39; and/or &#39;osm&#39;) indicating which sources to use</p>
-									</div>
+									<h5>bbox: <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> bbox: <a href="../interfaces/_src_types_.boundingbox.html" class="tsd-signature-type">BoundingBox</a></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>bounding box to query in</p>
-									</div>
-								</li>
-								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">any</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>options for queries</p>
-									</div>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="../interfaces/_src_types_.provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol"> =&nbsp;defaultOptions</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -217,68 +151,47 @@
 						<span>Internals</span>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_conflate_.html">"src/conflate"</a>
+						<a href="_src_conflate_.html">"src/conflate"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_creategeojson_wikidata_.html">"src/create<wbr>Geo<wbr>Json.wikidata"</a>
+						<a href="_src_defaults_.html">"src/defaults"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_defaults_.html">"src/defaults"</a>
+						<a href="_src_index_.html">"src/index"</a>
 					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="../modules/_src_index_.html">"src/index"</a>
+						<a href="_src_query_osm_.html">"src/query.osm"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_query_osm_.html">"src/query.osm"</a>
+						<a href="_src_query_wikidata_.html">"src/query.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_query_wikidata_.html">"src/query.wikidata"</a>
+						<a href="_src_standardize_osm_.html">"src/standardize.osm"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_standardize_osm_.html">"src/standardize.osm"</a>
+						<a href="_src_standardize_wikidata_.html">"src/standardize.wikidata"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_src_types_.html">"src/types"</a>
+						<a href="_src_types_.html">"src/types"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="../modules/_typings_custom_haversine_.html">"typings-<wbr>custom/haversine"</a>
+						<a href="_typings_custom_haversine_.html">"typings-<wbr>custom/haversine"</a>
 					</li>
 					<li class="label tsd-is-external">
 						<span>Externals</span>
 					</li>
 					<li class=" tsd-kind-external-module tsd-is-external">
-						<a href="../modules/_src___tests___resources_.html">"src/__tests__/resources"</a>
+						<a href="_src___tests___resources_.html">"src/__tests__/resources"</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-class tsd-parent-kind-external-module">
-						<a href="_src_index_.provider.html" class="tsd-kind-icon">Provider</a>
-						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class">
-								<a href="_src_index_.provider.html#constructor" class="tsd-kind-icon">constructor</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
-								<a href="_src_index_.provider.html#bbox" class="tsd-kind-icon">bbox</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
-								<a href="_src_index_.provider.html#options" class="tsd-kind-icon">options</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
-								<a href="_src_index_.provider.html#sources" class="tsd-kind-icon">sources</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="_src_index_.provider.html#query" class="tsd-kind-icon">query</a>
-							</li>
-						</ul>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_src_query_osm_.html#buildosmquerystring" class="tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String</a>
 					</li>
-				</ul>
-				<ul class="after-current">
-					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-is-not-exported">
-						<a href="../modules/_src_index_.html#dropempty" class="tsd-kind-icon">drop<wbr>Empty</a>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_src_query_osm_.html#queryosm" class="tsd-kind-icon">query<wbr>Osm</a>
 					</li>
 				</ul>
 			</nav>
