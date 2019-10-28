@@ -1,8 +1,53 @@
-# open2Json
+# open2json
 Collect and merge drinking fountains from wikidata and OpenStreetMap
 
 ## Demo
 A working version of the code can be found here: [link](demo)
+
+# Using open2json in your project
+
+## Using open2json in a front-end project
+If your code runs in the browser without transpiling, then include the prepackaged code in your HTML head:
+
+`<script src='https://github.com/mmmatthew/open2json/dist/open2json.min.js'></script>`
+
+You can then obtain data asynchronously:
+
+```
+<script>
+    bbox = {
+        lonMin: 8.10,
+        latMin: 45.51,
+        lonMax: 8.15,
+        latMax: 45.52
+    };
+
+    // create provider
+    let provider = new open2json.Provider();
+
+    // perform query (on osm and wikidata simultaneously. results are conflated to gether.)
+    provider.query(['wikidata', 'osm'], bbox)
+    .then(data => {
+        // do something with the data (it is a geojson)
+    })
+    .catch(error => {
+        // if an error occurs you can do something with it here.
+    })
+```
+
+## Using open2json via npm install
+```
+> npm install --save open2json
+```
+
+You can then use open2json in your code:
+```
+var o2j = require('open2json');
+
+// the rest is the same as the example above
+```
+
+# For contributors
 
 ## Build open2json
 - install NodeJS
