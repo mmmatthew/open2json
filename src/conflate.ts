@@ -4,10 +4,11 @@ import { defaultOptions } from './defaults';
 import { ProviderOptions } from './types';
 
 /**
- * Conflate two GeoJson objects, preferring OpenStreetMap if there is a conflict
- * @param osmGeoJson GeoJson from OpenStreetMap
- * @param wikidataGeoJson GeoJson from Wikidata
- * @param options Provider Options
+ * Conflate two GeoJson objects, copying Wikidata information into matching OpenStreetMap objects. 
+ * Unmatched Wikidata objects are left out because the default wikidata query is broader than just drinking water fountains.
+ * @param osmGeoJson GeoJson from OpenStreetMap, standardized.
+ * @param wikidataGeoJson GeoJson from Wikidata, standardized.
+ * @param options Provider Options (only the `conflateRadius` option is used)
  */
 export function conflate(
   osmGeoJson: FeatureCollection,

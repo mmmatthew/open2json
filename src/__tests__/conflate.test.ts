@@ -1,5 +1,5 @@
 import { Provider } from '../index';
-import { zuriBoundingBox } from './resources';
+import { zuriBoundingBox } from '../resources';
 
 test('Conflated data sets works', () => {
   const provider = new Provider();

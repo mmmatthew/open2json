@@ -1,5 +1,5 @@
 import { FeatureCollection } from 'geojson';
-import { BoundingBox } from '../types';
+import { BoundingBox } from './types';
 
 export const baselBoundingBox: BoundingBox = {
   latMax: 47.7,

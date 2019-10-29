@@ -1,21 +1,20 @@
 import { FeatureCollection } from 'geojson';
 import * as _ from 'lodash';
-import { baselBoundingBox } from './__tests__/resources';
+import { baselBoundingBox } from './resources';
 import { conflate } from './conflate';
 import { defaultOptions } from './defaults';
 import { queryOsm } from './query.osm';
 import { queryWikidata } from './query.wikidata';
 import { standardizeOsm } from './standardize.osm';
 import { BoundingBox, ProviderOptions } from './types';
+import { standardizeWikidata } from './standardize.wikidata';
 
-export { conflate, queryOsm, queryWikidata };
+export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata };
 
 export class Provider {
   private options = defaultOptions;
-  private bbox = baselBoundingBox;
-  private sources = ['osm'];
 
-  constructor(options?: any) {
+  constructor(options?: ProviderOptions) {
     // update options with passed argument
     this.options = Object.assign(this.options, options);
   }
@@ -27,8 +26,8 @@ export class Provider {
    * @param options options for queries
    */
   public query(sources?: string[], bbox?: BoundingBox, options?: any): Promise<FeatureCollection> {
-    sources = sources ? sources : this.sources;
-    bbox = Object.assign(this.bbox, bbox);
+    sources = sources ? sources : ['osm', 'wikidata'];
+    bbox = bbox ? bbox : baselBoundingBox;
     options = Object.assign(this.options, options);
 
     // check that sources is valid
@@ -47,12 +46,14 @@ export class Provider {
 
     // if osm is requested
     if (sources.includes('osm')) {
+      // query and standardize
       promises.push(queryOsm(bbox, options).then(data => standardizeOsm(data)));
     }
 
     // if wikidata is requested
     if (sources.includes('wikidata')) {
-      promises.push(queryWikidata(bbox, options));
+      // query and standardize
+      promises.push(queryWikidata(bbox, options).then(data => standardizeWikidata(data, options.wdImageWidth)));
     }
 
     // when all promises are finished, conflate if more than one geojson was returned

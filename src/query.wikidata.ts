@@ -1,7 +1,7 @@
 import Axios from 'axios';
 import { FeatureCollection } from 'geojson';
 import * as wdk from 'wikidata-sdk';
-import { baselBoundingBox } from './__tests__/resources';
+import { baselBoundingBox } from './resources';
 import { defaultOptions } from './defaults';
 import { standardizeWikidata } from './standardize.wikidata';
 import { BoundingBox, ProviderOptions } from './types';
@@ -33,7 +33,7 @@ export function queryWikidata(
         return reject(error);
       } else {
         // If the data was returned from wikidata, then proceed by turning it into a geoJSON
-        resolve(standardizeWikidata(res.data, options.wdImageWidth));
+        resolve(res.data);
       }
     });
   });

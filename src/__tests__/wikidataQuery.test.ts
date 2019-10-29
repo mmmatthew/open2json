@@ -2,7 +2,7 @@ import Axios from 'axios';
 import * as wdk from 'wikidata-sdk';
 import { Provider } from '../index';
 import { buildWikidataQueryString } from '../query.wikidata';
-import { baselBoundingBox } from './resources';
+import { baselBoundingBox } from '../resources';
 
 test('Wikidata query returns geoJson', () => {
   const provider = new Provider();

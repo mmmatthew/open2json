@@ -108,10 +108,10 @@
 						<section class="tsd-index-section ">
 							<h3>Object literals</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-object-literal tsd-is-external"><a href="globals.html#baselboundingbox" class="tsd-kind-icon">basel<wbr>Bounding<wbr>Box</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#baselboundingbox" class="tsd-kind-icon">basel<wbr>Bounding<wbr>Box</a></li>
 								<li class="tsd-kind-object-literal"><a href="globals.html#defaultoptions" class="tsd-kind-icon">default<wbr>Options</a></li>
-								<li class="tsd-kind-object-literal tsd-is-external"><a href="globals.html#osmgeojson" class="tsd-kind-icon">osm<wbr>Geo<wbr>Json</a></li>
-								<li class="tsd-kind-object-literal tsd-is-external"><a href="globals.html#zuriboundingbox" class="tsd-kind-icon">zuri<wbr>Bounding<wbr>Box</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#osmgeojson" class="tsd-kind-icon">osm<wbr>Geo<wbr>Json</a></li>
+								<li class="tsd-kind-object-literal"><a href="globals.html#zuriboundingbox" class="tsd-kind-icon">zuri<wbr>Bounding<wbr>Box</a></li>
 							</ul>
 						</section>
 					</div>
@@ -129,7 +129,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/query.osm.ts#L35">src/query.osm.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/query.osm.ts#L35">src/query.osm.ts:35</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -155,7 +155,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/query.wikidata.ts#L47">src/query.wikidata.ts:47</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/query.wikidata.ts#L47">src/query.wikidata.ts:47</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -192,12 +192,13 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/conflate.ts#L12">src/conflate.ts:12</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/conflate.ts#L13">src/conflate.ts:13</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Conflate two GeoJson objects, preferring OpenStreetMap if there is a conflict</p>
+									<p>Conflate two GeoJson objects, copying Wikidata information into matching OpenStreetMap objects.
+									Unmatched Wikidata objects are left out because the default wikidata query is broader than just drinking water fountains.</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -205,19 +206,19 @@
 								<li>
 									<h5>osmGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>GeoJson from OpenStreetMap</p>
+										<p>GeoJson from OpenStreetMap, standardized.</p>
 									</div>
 								</li>
 								<li>
 									<h5>wikidataGeoJson: <span class="tsd-signature-type">FeatureCollection</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>GeoJson from Wikidata</p>
+										<p>GeoJson from Wikidata, standardized.</p>
 									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <a href="interfaces/provideroptions.html" class="tsd-signature-type">ProviderOptions</a><span class="tsd-signature-symbol"> =&nbsp;defaultOptions</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Provider Options</p>
+										<p>Provider Options (only the <code>conflateRadius</code> option is used)</p>
 									</div>
 								</li>
 							</ul>
@@ -235,7 +236,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/standardize.wikidata.ts#L22">src/standardize.wikidata.ts:22</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/standardize.wikidata.ts#L22">src/standardize.wikidata.ts:22</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -261,7 +262,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/index.ts#L91">src/index.ts:91</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/index.ts#L92">src/index.ts:92</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -291,7 +292,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/standardize.wikidata.ts#L57">src/standardize.wikidata.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/standardize.wikidata.ts#L57">src/standardize.wikidata.ts:57</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -328,7 +329,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/conflate.ts#L76">src/conflate.ts:76</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/conflate.ts#L77">src/conflate.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -351,7 +352,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/conflate.ts#L41">src/conflate.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/conflate.ts#L42">src/conflate.ts:42</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -380,7 +381,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/conflate.ts#L25">src/conflate.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/conflate.ts#L26">src/conflate.ts:26</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -406,7 +407,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/query.osm.ts#L9">src/query.osm.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/query.osm.ts#L9">src/query.osm.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -437,7 +438,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/query.wikidata.ts#L14">src/query.wikidata.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/query.wikidata.ts#L14">src/query.wikidata.ts:14</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -474,7 +475,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/standardize.wikidata.ts#L77">src/standardize.wikidata.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/standardize.wikidata.ts#L77">src/standardize.wikidata.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -497,7 +498,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/standardize.osm.ts#L8">src/standardize.osm.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/standardize.osm.ts#L8">src/standardize.osm.ts:8</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -528,7 +529,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/standardize.wikidata.ts#L9">src/standardize.wikidata.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/standardize.wikidata.ts#L9">src/standardize.wikidata.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -558,52 +559,52 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Object literals</h2>
-				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
 					<a name="baselboundingbox" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> basel<wbr>Bounding<wbr>Box</h3>
 					<div class="tsd-signature tsd-kind-icon">basel<wbr>Bounding<wbr>Box<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L4">src/__tests__/resources.ts:4</a></li>
+							<li>Defined in src/resources.ts:4</li>
 						</ul>
 					</aside>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="baselboundingbox.latmax" class="tsd-anchor"></a>
 						<h3>lat<wbr>Max</h3>
 						<div class="tsd-signature tsd-kind-icon">lat<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;47.7</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L5">src/__tests__/resources.ts:5</a></li>
+								<li>Defined in src/resources.ts:5</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="baselboundingbox.latmin" class="tsd-anchor"></a>
 						<h3>lat<wbr>Min</h3>
 						<div class="tsd-signature tsd-kind-icon">lat<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;47.5</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L6">src/__tests__/resources.ts:6</a></li>
+								<li>Defined in src/resources.ts:6</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="baselboundingbox.lonmax" class="tsd-anchor"></a>
 						<h3>lon<wbr>Max</h3>
 						<div class="tsd-signature tsd-kind-icon">lon<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;7.7</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L7">src/__tests__/resources.ts:7</a></li>
+								<li>Defined in src/resources.ts:7</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="baselboundingbox.lonmin" class="tsd-anchor"></a>
 						<h3>lon<wbr>Min</h3>
 						<div class="tsd-signature tsd-kind-icon">lon<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;7.5</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L8">src/__tests__/resources.ts:8</a></li>
+								<li>Defined in src/resources.ts:8</li>
 							</ul>
 						</aside>
 					</section>
@@ -614,7 +615,7 @@
 					<div class="tsd-signature tsd-kind-icon">default<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L4">src/defaults.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L4">src/defaults.ts:4</a></li>
 						</ul>
 					</aside>
 					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
@@ -623,7 +624,7 @@
 						<div class="tsd-signature tsd-kind-icon">conflate<wbr>Radius<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L18">src/defaults.ts:18</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L18">src/defaults.ts:18</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -633,7 +634,7 @@
 						<div class="tsd-signature tsd-kind-icon">overpass<wbr>Tag<wbr>Filters<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[// see https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#Tag_request_clauses_.28or_.22tag_filters.22.29&#x27;amenity&#x3D;drinking_water&#x27;,&#x27;drinking_water&#x3D;yes&#x27;,]</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L5">src/defaults.ts:5</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L5">src/defaults.ts:5</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -643,7 +644,7 @@
 						<div class="tsd-signature tsd-kind-icon">overpass<wbr>Url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;https://z.overpass-api.de/api/interpreter&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L10">src/defaults.ts:10</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L10">src/defaults.ts:10</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -653,7 +654,7 @@
 						<div class="tsd-signature tsd-kind-icon">wd<wbr>Entity<wbr>Classes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&#x27;Q1630622&#x27;, // drinking water fountain (Q1630622)&#x27;Q483453&#x27;, // fountain (Q483453)&#x27;Q43483&#x27;, // water well (Q43483)]</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L12">src/defaults.ts:12</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L12">src/defaults.ts:12</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -663,7 +664,7 @@
 						<div class="tsd-signature tsd-kind-icon">wd<wbr>Image<wbr>Width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;350</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L17">src/defaults.ts:17</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L17">src/defaults.ts:17</a></li>
 							</ul>
 						</aside>
 					</section>
@@ -673,87 +674,87 @@
 						<div class="tsd-signature tsd-kind-icon">wd<wbr>Langs<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;en,de,fr,it,es&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/defaults.ts#L11">src/defaults.ts:11</a></li>
+								<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/5336ed6/src/defaults.ts#L11">src/defaults.ts:11</a></li>
 							</ul>
 						</aside>
 					</section>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
 					<a name="osmgeojson" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> osm<wbr>Geo<wbr>Json</h3>
 					<div class="tsd-signature tsd-kind-icon">osm<wbr>Geo<wbr>Json<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L18">src/__tests__/resources.ts:18</a></li>
+							<li>Defined in src/resources.ts:18</li>
 						</ul>
 					</aside>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="osmgeojson.features" class="tsd-anchor"></a>
 						<h3>features</h3>
 						<div class="tsd-signature tsd-kind-icon">features<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[{type: &#x27;Feature&#x27;,id: &#x27;node/567050952&#x27;,properties: {name: &#x27;Fischermädchen-Brunnen&#x27;,id: &#x27;node/567050952&#x27;,},geometry: { type: &#x27;Point&#x27;, coordinates: [7.5875386, 47.5512434] },},{type: &#x27;Feature&#x27;,id: &#x27;node/575614798&#x27;,properties: {id: &#x27;node/575614798&#x27;,},geometry: { type: &#x27;Point&#x27;, coordinates: [7.5873847, 47.555435] },},{type: &#x27;Feature&#x27;,id: &#x27;node/583590302&#x27;,properties: {name: &#x27;Augustiner-Brunnen&#x27;,id: &#x27;node/583590302&#x27;,},geometry: { type: &#x27;Point&#x27;, coordinates: [7.59034, 47.5579655] },},]</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L20">src/__tests__/resources.ts:20</a></li>
+								<li>Defined in src/resources.ts:20</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="osmgeojson.type" class="tsd-anchor"></a>
 						<h3>type</h3>
 						<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"FeatureCollection"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;FeatureCollection&quot;</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L19">src/__tests__/resources.ts:19</a></li>
+								<li>Defined in src/resources.ts:19</li>
 							</ul>
 						</aside>
 					</section>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-object-literal">
 					<a name="zuriboundingbox" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> zuri<wbr>Bounding<wbr>Box</h3>
 					<div class="tsd-signature tsd-kind-icon">zuri<wbr>Bounding<wbr>Box<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L11">src/__tests__/resources.ts:11</a></li>
+							<li>Defined in src/resources.ts:11</li>
 						</ul>
 					</aside>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="zuriboundingbox.latmax" class="tsd-anchor"></a>
 						<h3>lat<wbr>Max</h3>
 						<div class="tsd-signature tsd-kind-icon">lat<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;47.36852337512103</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L12">src/__tests__/resources.ts:12</a></li>
+								<li>Defined in src/resources.ts:12</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="zuriboundingbox.latmin" class="tsd-anchor"></a>
 						<h3>lat<wbr>Min</h3>
 						<div class="tsd-signature tsd-kind-icon">lat<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;47.363692917827215</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L13">src/__tests__/resources.ts:13</a></li>
+								<li>Defined in src/resources.ts:13</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="zuriboundingbox.lonmax" class="tsd-anchor"></a>
 						<h3>lon<wbr>Max</h3>
 						<div class="tsd-signature tsd-kind-icon">lon<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;8.539960384368896</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L14">src/__tests__/resources.ts:14</a></li>
+								<li>Defined in src/resources.ts:14</li>
 							</ul>
 						</aside>
 					</section>
-					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal tsd-is-external">
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
 						<a name="zuriboundingbox.lonmin" class="tsd-anchor"></a>
 						<h3>lon<wbr>Min</h3>
 						<div class="tsd-signature tsd-kind-icon">lon<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;8.535035848617554</span></div>
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/652cb5b/src/__tests__/resources.ts#L15">src/__tests__/resources.ts:15</a></li>
+								<li>Defined in src/resources.ts:15</li>
 							</ul>
 						</aside>
 					</section>
@@ -776,38 +777,8 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/provider.html" class="tsd-kind-icon">Provider</a>
 					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/boundingbox.html" class="tsd-kind-icon">Bounding<wbr>Box</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/provideroptions.html" class="tsd-kind-icon">Provider<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="globals.html#buildosmquerystring" class="tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="globals.html#buildwikidataquerystring" class="tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String</a>
-					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#conflate" class="tsd-kind-icon">conflate</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#createfeature" class="tsd-kind-icon">create<wbr>Feature</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#dropempty" class="tsd-kind-icon">drop<wbr>Empty</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#getfilepath" class="tsd-kind-icon">get<wbr>File<wbr>Path</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#indexofsmallest" class="tsd-kind-icon">index<wbr>OfSmallest</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#matchbylocation" class="tsd-kind-icon">match<wbr>ByLocation</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#matchbyqid" class="tsd-kind-icon">match<wbr>ByQID</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#queryosm" class="tsd-kind-icon">query<wbr>Osm</a>
@@ -815,26 +786,11 @@
 					<li class=" tsd-kind-function">
 						<a href="globals.html#querywikidata" class="tsd-kind-icon">query<wbr>Wikidata</a>
 					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#sanitizefilename" class="tsd-kind-icon">sanitize<wbr>Filename</a>
-					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#standardizeosm" class="tsd-kind-icon">standardize<wbr>Osm</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#standardizewikidata" class="tsd-kind-icon">standardize<wbr>Wikidata</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#baselboundingbox" class="tsd-kind-icon">basel<wbr>Bounding<wbr>Box</a>
-					</li>
-					<li class=" tsd-kind-object-literal">
-						<a href="globals.html#defaultoptions" class="tsd-kind-icon">default<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#osmgeojson" class="tsd-kind-icon">osm<wbr>Geo<wbr>Json</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#zuriboundingbox" class="tsd-kind-icon">zuri<wbr>Bounding<wbr>Box</a>
 					</li>
 				</ul>
 			</nav>

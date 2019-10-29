@@ -71,43 +71,114 @@
 				<a href="#demo" id="demo" style="color: inherit; text-decoration: none;">
 					<h2>Demo</h2>
 				</a>
-				<p>A working version of the code can be found here: <a href="http://htmlpreview.github.io/?https://github.com/mmmatthew/open2json/blob/master/demo/index.html">link</a></p>
+				<p>A working version of the code can be found here: <a href="https://mmmatthew.github.io/open2json/demo">link</a></p>
 				<a href="#using-open2json-in-a-front-end-project" id="using-open2json-in-a-front-end-project" style="color: inherit; text-decoration: none;">
 					<h2>Using open2json in a front-end project</h2>
 				</a>
 				<p>If your code runs in the browser without transpiling, then include the prepackaged code in your HTML head:</p>
 				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">'https://github.com/mmmatthew/open2json/dist/open2json.min.js'</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
 				<p>You can then obtain data asynchronously:</p>
-				<pre><code class="language-javascript">&lt;script&gt;
-    bbox = {
-        <span class="hljs-attr">lonMin</span>: <span class="hljs-number">8.10</span>,
-        <span class="hljs-attr">latMin</span>: <span class="hljs-number">45.51</span>,
-        <span class="hljs-attr">lonMax</span>: <span class="hljs-number">8.15</span>,
-        <span class="hljs-attr">latMax</span>: <span class="hljs-number">45.52</span>
-    };
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
 
     <span class="hljs-comment">// create provider</span>
     <span class="hljs-keyword">let</span> provider = <span class="hljs-keyword">new</span> open2json.Provider();
 
     <span class="hljs-comment">// perform query (on osm and wikidata simultaneously. results are conflated to gether.)</span>
-    provider.query([<span class="hljs-string">'wikidata'</span>, <span class="hljs-string">'osm'</span>], bbox)
+    <span class="hljs-comment">// calling without arguments uses default options and a bounding box for Basel, Switzerland</span>
+    provider.query()
     .then(<span class="hljs-function"><span class="hljs-params">data</span> =&gt;</span> {
         <span class="hljs-comment">// do something with the data (it is a geojson)</span>
     })
     .catch(<span class="hljs-function"><span class="hljs-params">error</span> =&gt;</span> {
         <span class="hljs-comment">// if an error occurs you can do something with it here.</span>
-    })</code></pre>
+    })
+
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
 				<a href="#using-open2json-via-npm-install" id="using-open2json-via-npm-install" style="color: inherit; text-decoration: none;">
 					<h2>Using open2json via npm install</h2>
 				</a>
 				<pre><code>&gt; npm install <span class="hljs-comment">--save open2json</span></code></pre><p>You can then use open2json in your code:</p>
-				<pre><code><span class="hljs-keyword">var</span> o2j = <span class="hljs-built_in">require</span>(<span class="hljs-string">'open2json'</span>);
+				<pre><code class="language-js"><span class="hljs-keyword">var</span> open2json = <span class="hljs-built_in">require</span>(<span class="hljs-string">'open2json'</span>);
 
-<span class="hljs-comment">// the rest is the same as the example above</span></code></pre>
+<span class="hljs-comment">// define options to use everywhere</span>
+<span class="hljs-keyword">var</span> options = {};
+
+<span class="hljs-keyword">let</span> provider = <span class="hljs-keyword">new</span> open2json.Provider(options); <span class="hljs-comment">// etc.</span></code></pre>
+				<a href="#options" id="options" style="color: inherit; text-decoration: none;">
+					<h2>Options</h2>
+				</a>
+				<p>The query function takes an optional <code>options</code> argument with the following default values:</p>
+				<ul>
+					<li><strong>overpassTagFilters</strong> (array of strings): Array of tag filters for querying OSM as defined <a href="https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#Tag_request_clauses_.28or_.22tag_filters.22.29">here</a>.</li>
+					<li><strong>overpassUrl</strong> (string): Url root for overpass. There are several defined <a href="https://wiki.openstreetmap.org/wiki/Platform_Status">here</a></li>
+					<li><strong>wdLangs</strong> (string): List of language codes to be used for obtaining object label from Wikidata, in order of preference.</li>
+					<li><strong>wdEntityClasses</strong> (array of strings): Array of Wikidata entity IDs for filtering results</li>
+					<li><strong>wdImageWidth</strong> (integer): width of image for which a url is to be provided</li>
+					<li><strong>conflateRadius</strong> (integer): Wikidata objects are matched with the closest OpenStreetMap object that is within this distance (in meters)</li>
+				</ul>
+				<p>The default values for these options are defined as follows:</p>
+				<pre><code class="language-js">{
+  <span class="hljs-attr">overpassTagFilters</span>: [
+    <span class="hljs-string">'amenity=drinking_water'</span>,
+    <span class="hljs-string">'drinking_water=yes'</span>,
+  ],
+  <span class="hljs-attr">overpassUrl</span>: <span class="hljs-string">'https://z.overpass-api.de/api/interpreter'</span>,
+  <span class="hljs-attr">wdLangs</span>: <span class="hljs-string">'en,de,fr,it,es'</span>,
+  <span class="hljs-attr">wdEntityClasses</span>: [
+    <span class="hljs-string">'Q1630622'</span>, <span class="hljs-comment">// drinking water fountain (Q1630622)</span>
+    <span class="hljs-string">'Q483453'</span>, <span class="hljs-comment">// fountain (Q483453)</span>
+    <span class="hljs-string">'Q43483'</span>, <span class="hljs-comment">// water well (Q43483)</span>
+  ],
+  <span class="hljs-attr">wdImageWidth</span>: <span class="hljs-number">350</span>, <span class="hljs-comment">// width in pixels of image to return (just url)</span>
+  conflateRadius: <span class="hljs-number">10</span>, <span class="hljs-comment">// search radius for fountains, in meters</span>
+}</code></pre>
+				<a href="#using-unit-functions" id="using-unit-functions" style="color: inherit; text-decoration: none;">
+					<h2>Using unit functions</h2>
+				</a>
+				<pre><code class="language-js"><span class="hljs-keyword">var</span> open2json = <span class="hljs-built_in">require</span>(<span class="hljs-string">'open2json'</span>)
+
+<span class="hljs-keyword">var</span> bbox = {
+    <span class="hljs-attr">lonMin</span>: <span class="hljs-number">8.53</span>,
+    <span class="hljs-attr">latMin</span>: <span class="hljs-number">47.37</span>,
+    <span class="hljs-attr">lonMax</span>: <span class="hljs-number">8.55</span>,
+    <span class="hljs-attr">latMax</span>: <span class="hljs-number">47.38</span>
+};
+
+<span class="hljs-keyword">var</span> options = {
+    <span class="hljs-attr">overpassTagFilters</span>: [
+    <span class="hljs-string">'drinking_water=yes'</span>
+  ]
+};
+
+<span class="hljs-keyword">var</span> standardWikiGeoJson, standardOsmGeoJson;
+
+<span class="hljs-comment">// just get data from wikidata without any processing</span>
+open2json.queryWikidata(bbox, options).then(<span class="hljs-function"><span class="hljs-params">wikidataJson</span> =&gt;</span> {
+    <span class="hljs-comment">// standardize a typical Wikidata response</span>
+    standardWikiGeoJson = open2json.standardizeWikidata(wikidataJson);
+})
+
+<span class="hljs-comment">// just get data from Osm without any processing</span>
+open2json.queryOsm(bbox, options).then(<span class="hljs-function"><span class="hljs-params">OsmJson</span> =&gt;</span> {
+    <span class="hljs-comment">// standardize a typical Osm response</span>
+    standardOsmGeoJson = open2json.standardizeOsm(OsmJson);
+})
+
+<span class="hljs-comment">// conflate two standardized geojsons. This can only be run once both GeoJsons have been loaded</span>
+<span class="hljs-keyword">var</span> conflated = open2json.conflate(standardOsmGeoJson, standardWikiGeoJson);
+</code></pre>
 				<a href="#read-the-docs" id="read-the-docs" style="color: inherit; text-decoration: none;">
 					<h2>Read the docs</h2>
 				</a>
-				<p>Find the docs here: <a href="https://mmmatthew.github.io/open2json/dist/docs">link</a></p>
+				<p>Find the docs here: <a href="https://mmmatthew.github.io/open2json/docs">link</a></p>
+				<ul>
+					<li>query OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#queryOsm">link</a></li>
+					<li>query Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#queryWikidata">link</a></li>
+					<li>standardize OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizeOsm">link</a></li>
+					<li>standardize Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizeWikidata">link</a></li>
+					<li>conflate: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#conflate">link</a></li>
+					<li>do everything at once with the <code>query</code> method of Provider: <a href="https://mmmatthew.github.io/open2json/docs/classes/provider.html">link</a></li>
+				</ul>
 				<a href="#for-contributors" id="for-contributors" style="color: inherit; text-decoration: none;">
 					<h1>For contributors</h1>
 				</a>
@@ -125,7 +196,7 @@
 				</a>
 				<ul>
 					<li><strong>test the code</strong>: run <code>npm run test</code></li>
-					<li><strong>increment the package version</strong>: run <code>npm run version [patch | minor | major]</code></li>
+					<li><strong>increment the package version</strong>: run <code>npm version [patch | minor | major]</code></li>
 					<li><strong>publish to npm</strong>: run <code>npm run publish</code></li>
 				</ul>
 			</div>
@@ -146,38 +217,8 @@
 					<li class=" tsd-kind-class">
 						<a href="classes/provider.html" class="tsd-kind-icon">Provider</a>
 					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/boundingbox.html" class="tsd-kind-icon">Bounding<wbr>Box</a>
-					</li>
-					<li class=" tsd-kind-interface">
-						<a href="interfaces/provideroptions.html" class="tsd-kind-icon">Provider<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="globals.html#buildosmquerystring" class="tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String</a>
-					</li>
-					<li class=" tsd-kind-function">
-						<a href="globals.html#buildwikidataquerystring" class="tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String</a>
-					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#conflate" class="tsd-kind-icon">conflate</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#createfeature" class="tsd-kind-icon">create<wbr>Feature</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#dropempty" class="tsd-kind-icon">drop<wbr>Empty</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#getfilepath" class="tsd-kind-icon">get<wbr>File<wbr>Path</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#indexofsmallest" class="tsd-kind-icon">index<wbr>OfSmallest</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#matchbylocation" class="tsd-kind-icon">match<wbr>ByLocation</a>
-					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#matchbyqid" class="tsd-kind-icon">match<wbr>ByQID</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#queryosm" class="tsd-kind-icon">query<wbr>Osm</a>
@@ -185,26 +226,11 @@
 					<li class=" tsd-kind-function">
 						<a href="globals.html#querywikidata" class="tsd-kind-icon">query<wbr>Wikidata</a>
 					</li>
-					<li class=" tsd-kind-function tsd-is-not-exported">
-						<a href="globals.html#sanitizefilename" class="tsd-kind-icon">sanitize<wbr>Filename</a>
-					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#standardizeosm" class="tsd-kind-icon">standardize<wbr>Osm</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="globals.html#standardizewikidata" class="tsd-kind-icon">standardize<wbr>Wikidata</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#baselboundingbox" class="tsd-kind-icon">basel<wbr>Bounding<wbr>Box</a>
-					</li>
-					<li class=" tsd-kind-object-literal">
-						<a href="globals.html#defaultoptions" class="tsd-kind-icon">default<wbr>Options</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#osmgeojson" class="tsd-kind-icon">osm<wbr>Geo<wbr>Json</a>
-					</li>
-					<li class=" tsd-kind-object-literal tsd-is-external">
-						<a href="globals.html#zuriboundingbox" class="tsd-kind-icon">zuri<wbr>Bounding<wbr>Box</a>
 					</li>
 				</ul>
 			</nav>

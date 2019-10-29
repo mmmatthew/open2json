@@ -1,7 +1,7 @@
 import { Provider } from '../index';
 import { buildOsmQueryString } from '../query.osm';
 import { standardizeOsm } from '../standardize.osm';
-import { baselBoundingBox, osmGeoJson } from './resources';
+import { baselBoundingBox, osmGeoJson } from '../resources';
 
 test('Build OSM query', () => {
   expect(buildOsmQueryString(baselBoundingBox, ['amenity=drinking_water'])).toBe(
