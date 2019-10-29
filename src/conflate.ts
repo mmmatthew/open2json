@@ -4,7 +4,7 @@ import { defaultOptions } from './defaults';
 import { ProviderOptions } from './types';
 
 /**
- * Conflate two GeoJson objects, copying Wikidata information into matching OpenStreetMap objects. 
+ * Conflate two GeoJson objects, copying Wikidata information into matching OpenStreetMap objects.
  * Unmatched Wikidata objects are left out because the default wikidata query is broader than just drinking water fountains.
  * @param osmGeoJson GeoJson from OpenStreetMap, standardized.
  * @param wikidataGeoJson GeoJson from Wikidata, standardized.
