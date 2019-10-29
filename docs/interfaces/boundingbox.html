@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;src/standardize.osm&quot; | open2json</title>
+	<title>BoundingBox | open2json</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,61 +56,81 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_src_standardize_osm_.html">&quot;src/standardize.osm&quot;</a>
+					<a href="boundingbox.html">BoundingBox</a>
 				</li>
 			</ul>
-			<h1>External module &quot;src/standardize.osm&quot;</h1>
+			<h1>Interface BoundingBox</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">BoundingBox</span>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Functions</h3>
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_src_standardize_osm_.html#standardizeosm" class="tsd-kind-icon">standardize<wbr>Osm</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="boundingbox.html#latmax" class="tsd-kind-icon">lat<wbr>Max</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="boundingbox.html#latmin" class="tsd-kind-icon">lat<wbr>Min</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="boundingbox.html#lonmax" class="tsd-kind-icon">lon<wbr>Max</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="boundingbox.html#lonmin" class="tsd-kind-icon">lon<wbr>Min</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Functions</h2>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="standardizeosm" class="tsd-anchor"></a>
-					<h3>standardize<wbr>Osm</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">standardize<wbr>Osm<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">FeatureCollection</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/mmmatthew/wiki2Json/blob/19e34fb/src/standardize.osm.ts#L9">src/standardize.osm.ts:9</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>standardize into simple geoJson format. Unavailable values are undefined</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>data: <span class="tsd-signature-type">FeatureCollection</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>data returned by OpenStreetMap overpass API</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">FeatureCollection</span></h4>
-						</li>
-					</ul>
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="latmax" class="tsd-anchor"></a>
+					<h3>lat<wbr>Max</h3>
+					<div class="tsd-signature tsd-kind-icon">lat<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/949dce5/src/types.ts#L3">src/types.ts:3</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="latmin" class="tsd-anchor"></a>
+					<h3>lat<wbr>Min</h3>
+					<div class="tsd-signature tsd-kind-icon">lat<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/949dce5/src/types.ts#L2">src/types.ts:2</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="lonmax" class="tsd-anchor"></a>
+					<h3>lon<wbr>Max</h3>
+					<div class="tsd-signature tsd-kind-icon">lon<wbr>Max<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/949dce5/src/types.ts#L5">src/types.ts:5</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="lonmin" class="tsd-anchor"></a>
+					<h3>lon<wbr>Min</h3>
+					<div class="tsd-signature tsd-kind-icon">lon<wbr>Min<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mmmatthew/open2json/blob/949dce5/src/types.ts#L4">src/types.ts:4</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -120,48 +140,90 @@
 					<li class="globals  ">
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class="label tsd-is-external">
-						<span>Internals</span>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_conflate_.html">"src/conflate"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_defaults_.html">"src/defaults"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_index_.html">"src/index"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_query_osm_.html">"src/query.osm"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_query_wikidata_.html">"src/query.wikidata"</a>
-					</li>
-					<li class="current tsd-kind-external-module">
-						<a href="_src_standardize_osm_.html">"src/standardize.osm"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_standardize_wikidata_.html">"src/standardize.wikidata"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_src_types_.html">"src/types"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_typings_custom_haversine_.html">"typings-<wbr>custom/haversine"</a>
-					</li>
-					<li class="label tsd-is-external">
-						<span>Externals</span>
-					</li>
-					<li class=" tsd-kind-external-module tsd-is-external">
-						<a href="_src___tests___resources_.html">"src/__tests__/resources"</a>
-					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_src_standardize_osm_.html#standardizeosm" class="tsd-kind-icon">standardize<wbr>Osm</a>
+					<li class=" tsd-kind-class">
+						<a href="../classes/provider.html" class="tsd-kind-icon">Provider</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="boundingbox.html" class="tsd-kind-icon">Bounding<wbr>Box</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="boundingbox.html#latmax" class="tsd-kind-icon">lat<wbr>Max</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="boundingbox.html#latmin" class="tsd-kind-icon">lat<wbr>Min</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="boundingbox.html#lonmax" class="tsd-kind-icon">lon<wbr>Max</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="boundingbox.html#lonmin" class="tsd-kind-icon">lon<wbr>Min</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface">
+						<a href="provideroptions.html" class="tsd-kind-icon">Provider<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#buildosmquerystring" class="tsd-kind-icon">build<wbr>Osm<wbr>Query<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#buildwikidataquerystring" class="tsd-kind-icon">build<wbr>Wikidata<wbr>Query<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#conflate" class="tsd-kind-icon">conflate</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#createfeature" class="tsd-kind-icon">create<wbr>Feature</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#dropempty" class="tsd-kind-icon">drop<wbr>Empty</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#getfilepath" class="tsd-kind-icon">get<wbr>File<wbr>Path</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#indexofsmallest" class="tsd-kind-icon">index<wbr>OfSmallest</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#matchbylocation" class="tsd-kind-icon">match<wbr>ByLocation</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#matchbyqid" class="tsd-kind-icon">match<wbr>ByQID</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#queryosm" class="tsd-kind-icon">query<wbr>Osm</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#querywikidata" class="tsd-kind-icon">query<wbr>Wikidata</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="../globals.html#sanitizefilename" class="tsd-kind-icon">sanitize<wbr>Filename</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#standardizeosm" class="tsd-kind-icon">standardize<wbr>Osm</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#standardizewikidata" class="tsd-kind-icon">standardize<wbr>Wikidata</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-external">
+						<a href="../globals.html#baselboundingbox" class="tsd-kind-icon">basel<wbr>Bounding<wbr>Box</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="../globals.html#defaultoptions" class="tsd-kind-icon">default<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-external">
+						<a href="../globals.html#osmgeojson" class="tsd-kind-icon">osm<wbr>Geo<wbr>Json</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-external">
+						<a href="../globals.html#zuriboundingbox" class="tsd-kind-icon">zuri<wbr>Bounding<wbr>Box</a>
 					</li>
 				</ul>
 			</nav>
