@@ -1,13 +1,13 @@
 import { FeatureCollection } from 'geojson';
 import * as _ from 'lodash';
-import { baselBoundingBox } from './resources';
 import { conflate } from './conflate';
 import { defaultOptions } from './defaults';
 import { queryOsm } from './query.osm';
 import { queryWikidata } from './query.wikidata';
+import { baselBoundingBox } from './resources';
 import { standardizeOsm } from './standardize.osm';
-import { BoundingBox, ProviderOptions } from './types';
 import { standardizeWikidata } from './standardize.wikidata';
+import { BoundingBox, ProviderOptions } from './types';
 
 export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata };
 

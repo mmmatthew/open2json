@@ -1,8 +1,8 @@
 import Axios from 'axios';
 import { FeatureCollection } from 'geojson';
 import * as wdk from 'wikidata-sdk';
-import { baselBoundingBox } from './resources';
 import { defaultOptions } from './defaults';
+import { baselBoundingBox } from './resources';
 import { standardizeWikidata } from './standardize.wikidata';
 import { BoundingBox, ProviderOptions } from './types';
 
