@@ -8,7 +8,7 @@ import { queryWikidata } from './query.wikidata';
 import { standardizeOsm } from './standardize.osm';
 import { BoundingBox, ProviderOptions } from './types';
 
-export {conflate, queryOsm, queryWikidata};
+export { conflate, queryOsm, queryWikidata };
 
 export class Provider {
   private options = defaultOptions;
