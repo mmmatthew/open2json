@@ -58,7 +58,7 @@ The query function takes an optional `options` argument with the following defau
 
 The default values for these options are defined as follows:
 ```js
-{   
+const defaultOptions = {   
   overpassTagFilters: [
     'amenity=drinking_water',
     'drinking_water=yes',
@@ -114,10 +114,10 @@ var conflated = open2json.conflate(standardOsmGeoJson, standardWikiGeoJson);
 ## Read the docs
 Find the docs here: [link](https://mmmatthew.github.io/open2json/docs)
 
-- query OpenStreetMap: [link](https://mmmatthew.github.io/open2json/docs/globals.html#queryOsm)
-- query Wikidata: [link](https://mmmatthew.github.io/open2json/docs/globals.html#queryWikidata)
-- standardize OpenStreetMap: [link](https://mmmatthew.github.io/open2json/docs/globals.html#standardizeOsm)
-- standardize Wikidata: [link](https://mmmatthew.github.io/open2json/docs/globals.html#standardizeWikidata)
+- query OpenStreetMap: [link](https://mmmatthew.github.io/open2json/docs/globals.html#queryosm)
+- query Wikidata: [link](https://mmmatthew.github.io/open2json/docs/globals.html#querywikidata)
+- standardize OpenStreetMap: [link](https://mmmatthew.github.io/open2json/docs/globals.html#standardizeosm)
+- standardize Wikidata: [link](https://mmmatthew.github.io/open2json/docs/globals.html#standardizewikidata)
 - conflate: [link](https://mmmatthew.github.io/open2json/docs/globals.html#conflate)
 - do everything at once with the `query` method of Provider: [link](https://mmmatthew.github.io/open2json/docs/classes/provider.html)
 
