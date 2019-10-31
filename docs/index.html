@@ -117,7 +117,7 @@
 					<li><strong>conflateRadius</strong> (integer): Wikidata objects are matched with the closest OpenStreetMap object that is within this distance (in meters)</li>
 				</ul>
 				<p>The default values for these options are defined as follows:</p>
-				<pre><code class="language-js">{
+				<pre><code class="language-js"><span class="hljs-keyword">const</span> defaultOptions = {
   <span class="hljs-attr">overpassTagFilters</span>: [
     <span class="hljs-string">'amenity=drinking_water'</span>,
     <span class="hljs-string">'drinking_water=yes'</span>,
@@ -172,10 +172,10 @@ open2json.queryOsm(bbox, options).then(<span class="hljs-function"><span class="
 				</a>
 				<p>Find the docs here: <a href="https://mmmatthew.github.io/open2json/docs">link</a></p>
 				<ul>
-					<li>query OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#queryOsm">link</a></li>
-					<li>query Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#queryWikidata">link</a></li>
-					<li>standardize OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizeOsm">link</a></li>
-					<li>standardize Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizeWikidata">link</a></li>
+					<li>query OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#queryosm">link</a></li>
+					<li>query Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#querywikidata">link</a></li>
+					<li>standardize OpenStreetMap: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizeosm">link</a></li>
+					<li>standardize Wikidata: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#standardizewikidata">link</a></li>
 					<li>conflate: <a href="https://mmmatthew.github.io/open2json/docs/globals.html#conflate">link</a></li>
 					<li>do everything at once with the <code>query</code> method of Provider: <a href="https://mmmatthew.github.io/open2json/docs/classes/provider.html">link</a></li>
 				</ul>

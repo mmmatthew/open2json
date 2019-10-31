@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/273371549",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Peter Meister;Max Frisch",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Rosenhofbrunnen",
+        "operator": "WVZ",
+        "ref": "72",
+        "wikidata": "Q27229775",
+        "id": "node/273371549"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5433005,
+          47.3728878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/318692754",
+      "properties": {
+        "alt_name": "Jupiterbrunnen",
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Barbara Roth;Thomas Ehrler",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Nikebrunnen",
+        "official_name": "Brunnenfigur \"L'étrangère\"",
+        "old_name": "Jupiterbrunnen",
+        "operator": "WVZ",
+        "ref": "6",
+        "wikidata": "Q27230021",
+        "id": "node/318692754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5456879,
+          47.3724477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/318696667",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "David Theiler;Joseph Regl",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Winzerbrunnen",
+        "operator": "WVZ",
+        "ref": "44",
+        "wikidata": "Q27229888",
+        "id": "node/318696667"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5417829,
+          47.371345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/633640190",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Hans Gisler;Romano Fenaroli;Wilhelm Hartung",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Stüssibrunnen",
+        "operator": "WVZ",
+        "ref": "9",
+        "uzh_landmark": "true",
+        "wikidata": "Q27229660",
+        "id": "node/633640190"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5437077,
+          47.3725018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/693318521",
+      "properties": {
+        "amenity": "fountain",
+        "drinking_water": "yes",
+        "drinking_water:description": "Leitungswasser",
+        "operator": "WVZ",
+        "ref": "1023",
+        "id": "node/693318521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5396731,
+          47.374707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1042923655",
+      "properties": {
+        "amenity": "fountain",
+        "artist_name": "Joseph Regl;Johann Rigendinger;Horst Bohnet;Romano Fenaroli",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Junobrunnen",
+        "operator": "WVZ",
+        "ref": "3",
+        "wikidata": "Q27229661",
+        "id": "node/1042923655"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5393935,
+          47.3700819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1584068302",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "operator": "WVZ",
+        "ref": "19",
+        "wheelchair": "no",
+        "id": "node/1584068302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5469673,
+          47.3729378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1608392177",
+      "properties": {
+        "amenity": "fountain",
+        "artist_name": "Arnold Hünerwadel;Johann Rigendinger",
+        "drinking_water": "yes",
+        "drinking_water:description": "Leitungswasser",
+        "name": "Manessebrunnen",
+        "operator": "WVZ",
+        "ref": "53",
+        "wikidata": "Q27229690",
+        "id": "node/1608392177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5467742,
+          47.3709268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1833320942",
+      "properties": {
+        "amenity": "fountain",
+        "artist_name": "Baur",
+        "drinking_water": "yes",
+        "drinking_water:description": "Leitungswasser",
+        "name": "Springbrunnen Linthescherhof",
+        "operator": "WVZ",
+        "ref": "37",
+        "wikidata": "Q27230226",
+        "id": "node/1833320942"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53829,
+          47.3763453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2205041427",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "operator": "WVZ",
+        "ref": "33",
+        "id": "node/2205041427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541659,
+          47.3721652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4424615154",
+      "properties": {
+        "access": "yes",
+        "addr:place": "Hauptbahnhof, Zwischengeschoss",
+        "amenity": "toilets",
+        "charge": "CHF 2.00",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "female": "yes",
+        "layer": "-1",
+        "level": "-1",
+        "male": "yes",
+        "name": "McClean Hygienecenter Zürich",
+        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 06:00-02:30",
+        "operator": "Mc Clean AG",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "wheelchair": "yes",
+        "id": "node/4424615154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5395813,
+          47.3780831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4581580700",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Johann Jakob Wilhelm Schwerzmann",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Brunnenanlage mit Reliefs und Putten",
+        "operator": "WVZ",
+        "ref": "49",
+        "wikidata": "Q27229906",
+        "id": "node/4581580700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5368895,
+          47.372969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4581891765",
+      "properties": {
+        "amenity": "fountain",
+        "artist_name": "Paul Osswald",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Mauerbrunnen",
+        "operator": "WVZ",
+        "ref": "73",
+        "wikidata": "Q27230214",
+        "id": "node/4581891765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.543652,
+          47.3713286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4581891769",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Luigi Zanini",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Brunnentrog mit Fischrelief",
+        "operator": "WVZ",
+        "ref": "64",
+        "wikidata": "Q27230207",
+        "id": "node/4581891769"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5439819,
+          47.3749105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4585980380",
+      "properties": {
+        "amenity": "fountain",
+        "amenity_1": "drinking_water",
+        "artist_name": "Max Kestenholz",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Wandbrunnen mit wasserspeiender Bronzemaske",
+        "operator": "WVZ",
+        "ref": "69",
+        "wikidata": "Q27230150",
+        "id": "node/4585980380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5412165,
+          47.3722292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4833061589",
+      "properties": {
+        "access": "yes",
+        "addr:place": "Hauptbahnhof, Zwischengeschoss",
+        "amenity": "shower",
+        "charge": "CHF 12.00",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "layer": "-1",
+        "level": "-1",
+        "name": "McClean Hygienecenter Zürich",
+        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 06:00-02:30",
+        "operator": "Mc Clean AG",
+        "supervised": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "unisex": "yes",
+        "id": "node/4833061589"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5395675,
+          47.3780632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4988194781",
+      "properties": {
+        "amenity": "fountain",
+        "dog": "no",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Drachenbrunnen",
+        "note": "in den Brunnenakten der WVZ fälschlich als Delphinbrunnen erfasst",
+        "operator": "private",
+        "ref": "1204",
+        "wheelchair": "no",
+        "wikidata": "Q27230144",
+        "id": "node/4988194781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5463795,
+          47.3702339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5808963034",
+      "properties": {
+        "amenity": "fountain",
+        "drinking_water": "yes",
+        "drinking_water:description": "Quellwasser",
+        "name": "Lindenhofbrunnen",
+        "name:ru": "Фонтан Линденхоф",
+        "operator": "WVZ",
+        "ref": "14",
+        "wikidata": "Q27229903",
+        "id": "node/5808963034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5412412,
+          47.3729218
+        ]
+      }
+    }
+  ]
+}

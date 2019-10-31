@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Open2json Demo</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+    <!-- <script src='../dist/open2json.min.js'></script> -->
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- GEOCODE PLUGIN -->
+    <script
+        src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js'></script>
+    <link rel='stylesheet'
+        href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css'
+        type='text/css' />
+    
+        <!-- PROGRESS BAR -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/black/pace-theme-minimal.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id='map'></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibW1hdHRoZXciLCJhIjoiY2sxd2IxZ2ZzMG4zODNibzY3cDBuNDA5diJ9.oRxGI7mXpkTZljKWFAfU2A';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',
+            center: [7.589, 47.56],
+            zoom: 15,
+            minZoom: 11,
+            pitch: 0,
+            hash: true
+        });
+
+        function refreshData() {
+
+            // load data from file
+            fetch('CH1_conflated.gzip').then(response => {
+                response.json().then(data=>{
+                    map.addSource('water-src', {
+                        type: 'geojson',
+                        data: data
+                    });
+
+                    console.log('initializing');
+                    initializeMap();
+                })
+                
+            })
+
+        }
+
+        // create layers to display water and for interaction
+        function initializeMap(){
+            map.addLayer({
+                    'id': 'water-circles',
+                    'type': 'circle',
+                    'source': 'water-src',
+
+                    'paint': {
+                        // Size circle radius by zoom level
+                        'circle-radius': [
+                            'interpolate',
+                            ['linear'],
+                            ['zoom'],
+                            12, 3, 18, 15, 20, 25
+                        ],
+                        'circle-pitch-alignment': 'map',
+                        'circle-opacity': 1,
+                        'circle-color': '#017eac',
+                        'circle-stroke-color': 'white',
+                        'circle-stroke-width': [
+                            'interpolate',
+                            ['linear'],
+                            ['zoom'],
+                            12, 1, 18, 2
+                        ],
+                    }
+                });
+
+
+        }
+
+        function showPopup(e){
+            f = e.features[0];
+            // show popup when click a water spot
+            var coordinates = f.geometry.coordinates.slice();
+            var description = `
+            <h3>${f.properties.name}</h3>
+            <p>
+                OSM id: ${f.properties.id_osm}<br/> 
+                Wikidata id: ${f.properties.id_wikidata}<br/> 
+                ${f.properties.mergedOn?`merged on ${f.properties.mergedOn}`:'unmerged'}
+                </p>
+                <img src='${f.properties.image || ''}' width='120px'>
+            `;
+            
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+            
+            new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+
+        }
+
+
+        map.on('load', function () {
+            // refresh data on map load
+            refreshData();                
+
+            // refresh data on map move end
+            // map.on('moveend', refreshData)
+
+            // display popup on click
+            map.on('click', 'water-circles', showPopup)
+
+            // change cursor on mouseover
+            map.on('mouseover', 'water-circles', e => {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+            map.on('mouseleave', 'water-circles', () => {
+                map.getCanvas().style.cursor = '';
+            });
+
+            map.addControl(new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken,
+                mapboxgl: mapboxgl,
+                flyTo: {
+                    maxDuration: 1000
+                },
+                fitBoundsOptions: {
+                    maxZoom: 16
+                },
+                trackProximity: false
+            }));
+
+            
+            // Add geolocate control to the map.
+            let geolocater = new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: false
+            })
+            map.addControl(geolocater);
+
+            // try to geolocate after 500 ms
+            // setTimeout(() => { console.log(geolocater.trigger()) }, 500);
+
+            // geoLocater.on('geolocate', function (e) {
+            //     map.flyTo({
+            //         center: [e.coords.longitude, e.coords.latitude],
+            //         zoom: 16, //set zoom 
+            //         maxDuration: 1000
+            //     });
+            // });
+            
+        });
+    </script>
+
+</body>
+
+</html>
