@@ -4,7 +4,7 @@ import { zuriBoundingBox, osmGeoJson } from '../resources';
 test('Conflated data sets works', () => {
   const provider = new Provider();
   return provider
-    .query(['wikidata', 'osm'], zuriBoundingBox, {overpassTimeout: 30})
+    .query(['wikidata', 'osm'], zuriBoundingBox, { overpassTimeout: 30 })
     .then(data => {
       // console.log(JSON.stringify(data, null, 2));
       if (data.features[0].properties) {

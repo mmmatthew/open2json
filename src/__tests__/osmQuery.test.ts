@@ -12,7 +12,7 @@ test('Build OSM query', () => {
 test('Osm query returns geoJson', () => {
   const provider = new Provider();
   return provider
-    .query(['osm'], undefined, {overpassTimeout:30})
+    .query(['osm'], undefined, { overpassTimeout: 30 })
     .then(data => {
       expect(data).toHaveProperty('features');
     })
