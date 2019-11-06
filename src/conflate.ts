@@ -15,9 +15,10 @@ export function conflate(
   wikidataGeoJson: FeatureCollection,
   options: ProviderOptions = defaultOptions,
 ): FeatureCollection {
-  
-    // if osmGeoJson has no fountains, return empty geojson
-    if (osmGeoJson.features.length === 0) { return osmGeoJson; }
+  // if osmGeoJson has no fountains, return empty geojson
+  if (osmGeoJson.features.length === 0) {
+    return osmGeoJson;
+  }
 
   // matching and property merging
   matchByQID(wikidataGeoJson, osmGeoJson);
@@ -71,7 +72,7 @@ function matchByLocation(
       fOsm.properties.image = fwiki.properties.image || fOsm.properties.image;
       fOsm.properties.name = fwiki.properties.name || fOsm.properties.name;
       fOsm.properties.id_wikidata = fwiki.properties.id_wikidata;
-      
+
       // document merging
       fOsm.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
       fwiki.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;

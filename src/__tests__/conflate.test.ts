@@ -16,13 +16,11 @@ test('Conflated data sets works', () => {
     });
 });
 
-
 test('Conflation works even if the OSM FeatureCollection is an empty array', () => {
   const emptyGeoJson = JSON.parse(JSON.stringify(osmGeoJson));
   emptyGeoJson.features = [];
-  const conflated = conflate(emptyGeoJson, osmGeoJson)
+  const conflated = conflate(emptyGeoJson, osmGeoJson);
 
-  expect(conflated.type).toBe("FeatureCollection")
+  expect(conflated.type).toBe('FeatureCollection');
   expect(conflated.features.length).toBe(0);
-
 });
