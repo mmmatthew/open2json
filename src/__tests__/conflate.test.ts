@@ -1,6 +1,8 @@
 import { Provider, conflate } from '../index';
 import { zuriBoundingBox, osmGeoJson } from '../resources';
 
+jest.setTimeout(30000);
+
 test('Conflated data sets works', () => {
   const provider = new Provider();
   return provider

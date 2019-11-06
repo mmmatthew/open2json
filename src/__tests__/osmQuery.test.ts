@@ -3,6 +3,8 @@ import { buildOsmQueryString } from '../query.osm';
 import { baselBoundingBox, osmGeoJson, zuriBoundingBox } from '../resources';
 import { standardizeOsm } from '../standardize.osm';
 
+jest.setTimeout(30000);
+
 test('Build OSM query', () => {
   expect(buildOsmQueryString(baselBoundingBox, ['amenity=drinking_water'], 30)).toBe(
     '[timeout:30][out:json];(node[amenity=drinking_water](47.5,7.5,47.7,7.7););out;',
