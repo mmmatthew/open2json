@@ -16,6 +16,8 @@ export interface ProviderOptions {
   overpassTagFilters: string[];
   /** Url base for OSM queries. There are several defined [here](https://wiki.openstreetmap.org/wiki/Platform_Status) */
   overpassUrl: string;
+  /** Timeout in seconds when calling overpass */
+  overpassTimeout: number;
   /** List of language codes to be used for obtaining object label from Wikidata, in order of preference. */
   wdLangs: string;
   /** Array of Wikidata entity IDs for filtering results */

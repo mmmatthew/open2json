@@ -51,6 +51,7 @@ let provider = new open2json.Provider(options); // etc.
 The query function takes an optional `options` argument with the following default values:
 - **overpassTagFilters** (array of strings): Array of tag filters for querying OSM as defined [here](https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide#Tag_request_clauses_.28or_.22tag_filters.22.29).
 - **overpassUrl** (string): Url root for overpass. There are several defined [here](https://wiki.openstreetmap.org/wiki/Platform_Status)
+- **overpassTimeout** (number): Number of seconds before overpass query should time out.
 - **wdLangs** (string): List of language codes to be used for obtaining object label from Wikidata, in order of preference.
 - **wdEntityClasses** (array of strings): Array of Wikidata entity IDs for filtering results
 - **wdImageWidth** (integer): width of image for which a url is to be provided

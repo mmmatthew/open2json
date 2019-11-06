@@ -8,6 +8,7 @@ export const defaultOptions: ProviderOptions = {
     'drinking_water=yes',
   ],
   overpassUrl: 'https://z.overpass-api.de/api/interpreter',
+  overpassTimeout: 30, // 30 seconds timeout
   wdLangs: 'en,de,fr,it,es',
   wdEntityClasses: [
     'Q1630622', // drinking water fountain (Q1630622)
