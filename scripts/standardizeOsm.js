@@ -1,7 +1,7 @@
 
 var fs = require('fs');
 var standardizeOsm = require('../lib/src/standardize.osm')
-
+let filename = "C:/Users/moydevma/Downloads/export.geojson";
 fs.readFile('scripts/CH1_osm.json', 'utf8', (err, dataraw) => {
     // parse string into json object
     var dataParsed = JSON.parse(dataraw);

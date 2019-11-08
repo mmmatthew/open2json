@@ -18,7 +18,7 @@ test('Osm query returns geoJson', () => {
     .then(data => {
       expect(data).toHaveProperty('features');
     })
-    .catch(error => console.error(error));
+    .catch(error => console.log(error));
 });
 
 test('Standardize geojson', () => {

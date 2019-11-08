@@ -1,0 +1,72 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mosaikbrunnen",
+        "id_osm": "node/309750578",
+        "id_wikidata": "Q27229889",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Zürich_-_General-Guisan-Quai_IMG_0824.JPG/350px-Zürich_-_General-Guisan-Quai_IMG_0824.JPG",
+        "mergedOn": "id_wikidata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5378423,
+          47.3646246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunnenschale",
+        "id_osm": "node/1431213167",
+        "id_wikidata": "Q27230085",
+        "mergedOn": "id_wikidata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5384597,
+          47.36551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Q55166188",
+        "id_osm": "node/3035680421",
+        "id_wikidata": "Q55166188",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Notwasserbrunnen_Dreikönigstrasse_Ecke_Claridenstrasse.jpg/350px-Notwasserbrunnen_Dreikönigstrasse_Ecke_Claridenstrasse.jpg",
+        "mergedOn": "coordinates: 1.60 m"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5372684,
+          47.3672626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leuenbrunnen",
+        "id_osm": "node/4446588689",
+        "id_wikidata": "Q27229935",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Leuenbrunnen.jpg/350px-Leuenbrunnen.jpg",
+        "mergedOn": "id_wikidata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5373175,
+          47.3684333
+        ]
+      }
+    }
+  ]
+}

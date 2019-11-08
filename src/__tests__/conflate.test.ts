@@ -1,5 +1,5 @@
-import { Provider, conflate } from '../index';
-import { zuriBoundingBox, osmGeoJson } from '../resources';
+import { conflate, Provider } from '../index';
+import { osmGeoJson, zuriBoundingBox } from '../resources';
 
 jest.setTimeout(30000);
 
@@ -14,6 +14,7 @@ test('Conflated data sets works', () => {
       }
     })
     .catch(error => {
+      // tslint:disable-next-line: no-console
       console.error(error);
     });
 });

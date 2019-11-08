@@ -16679,6 +16679,38 @@
     },
     {
       "type": "Feature",
+      "id": "node/1502029065",
+      "properties": {
+        "amenity": "watering_place",
+        "drinking_water": "yes",
+        "id": "node/1502029065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2312988,
+          46.4641574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1502029371",
+      "properties": {
+        "amenity": "watering_place",
+        "drinking_water": "yes",
+        "id": "node/1502029371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2313335,
+          46.4649664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1502032808",
       "properties": {
         "amenity": "drinking_water",
@@ -16714,6 +16746,22 @@
         "coordinates": [
           6.7271881,
           46.0833433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1509557156",
+      "properties": {
+        "amenity": "watering_place",
+        "drinking_water": "yes",
+        "id": "node/1509557156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2331487,
+          46.4656293
         ]
       }
     },
@@ -32596,7 +32644,7 @@
       "type": "Feature",
       "id": "node/2971377238",
       "properties": {
-        "access": "public",
+        "access": "yes",
         "amenity": "toilets",
         "drinking_water": "yes",
         "fee": "no",
@@ -45005,36 +45053,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/3918947482",
-      "properties": {
-        "amenity": "drinking_water",
-        "id": "node/3918947482"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2313124,
-          46.4649577
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "node/3918947483",
-      "properties": {
-        "amenity": "drinking_water",
-        "id": "node/3918947483"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2331217,
-          46.4656424
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/3919540460",
       "properties": {
         "amenity": "toilets",
@@ -49629,6 +49647,21 @@
         "coordinates": [
           8.1014566,
           47.3555193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4375403903",
+      "properties": {
+        "amenity": "drinking_water",
+        "id": "node/4375403903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1019592,
+          46.4405267
         ]
       }
     },
@@ -61415,6 +61448,22 @@
     },
     {
       "type": "Feature",
+      "id": "node/5372347903",
+      "properties": {
+        "amenity": "fountain",
+        "drinking_water": "yes",
+        "id": "node/5372347903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1580908,
+          46.7941375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/5377793924",
       "properties": {
         "amenity": "drinking_water",
@@ -63328,8 +63377,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.4254347,
-          46.9360079
+          7.4254313,
+          46.936013
         ]
       }
     },
@@ -80035,6 +80084,7 @@
         "amenity": "drinking_water",
         "historic": "drinking_fountain",
         "man_made": "drinking_fountain",
+        "name:es": "Andreasplatz",
         "id": "node/6800668221"
       },
       "geometry": {
@@ -82395,6 +82445,118 @@
         "coordinates": [
           7.4744663,
           46.2105939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6938866794",
+      "properties": {
+        "amenity": "drinking_water",
+        "id": "node/6938866794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.097988,
+          47.1707348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6939648891",
+      "properties": {
+        "amenity": "drinking_water",
+        "id": "node/6939648891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6970334,
+          47.4967081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6939894007",
+      "properties": {
+        "access": "customers",
+        "amenity": "toilets",
+        "drinking_water": "yes",
+        "fee": "no",
+        "id": "node/6939894007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8290119,
+          47.0952596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6952476516",
+      "properties": {
+        "amenity": "water_point",
+        "drinking_water": "yes",
+        "id": "node/6952476516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7602419,
+          46.8772443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6952565202",
+      "properties": {
+        "amenity": "water_point",
+        "drinking_water": "yes",
+        "id": "node/6952565202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6731921,
+          46.8201115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6952613748",
+      "properties": {
+        "amenity": "water_point",
+        "drinking_water": "yes",
+        "id": "node/6952613748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0285816,
+          46.9635651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6952613749",
+      "properties": {
+        "amenity": "water_point",
+        "drinking_water": "yes",
+        "id": "node/6952613749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0285019,
+          46.9641142
         ]
       }
     }

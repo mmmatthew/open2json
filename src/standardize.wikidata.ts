@@ -2,7 +2,7 @@ import { Feature, FeatureCollection } from 'geojson';
 import * as md5 from 'md5';
 
 /**
- * Create GeoJson from wikidata response
+ * Create GeoJson from wikidata response json. This involves extracting the image and location data, and removing duplicates
  * @param res Response from wikidata query
  * @param imageWidth Width of the image thumbnails that should be returned
  */
@@ -12,32 +12,47 @@ export function standardizeWikidata(res: any, imageWidth: number = 300): Feature
     features: [],
   };
 
+  // list of QIDs
+  const qids:string[] = [];
+
   res.results.bindings.forEach((o: any) => {
-    geojson.features.push(createFeature(o, imageWidth));
+    const qid = o.place.value.split('entity/')[0];
+    // only add feature if the feature was not yet seen
+    if(qids.indexOf(qid) < 0) {
+      geojson.features.push(createFeature(o, imageWidth));
+      qids.push(qid)
+    }
   });
+
 
   return geojson;
 }
 
 function createFeature(obj: any, imageWidth: number): Feature {
+
+  let imagepath;
+  if ( obj.image ){
+    // if image is available, make path
+    imagepath = getFilePath(obj.image.value.split('Path/')[1], imageWidth);
+  }
   return {
     type: 'Feature',
     properties: {
       id_wikidata: obj.place.value.split('entity/')[1],
-      image: getFilePath(obj.images.value.split(';')[0].split('Path/')[1], imageWidth),
+      image: imagepath,
       name: obj.placeLabel.value,
     },
     geometry: {
       type: 'Point',
       coordinates: [
         parseFloat(
-          obj.locations.value
+          obj.location.value
             .split(';')[0]
             .slice(6, -1)
             .split(' ')[0],
         ),
         parseFloat(
-          obj.locations.value
+          obj.location.value
             .split(';')[0]
             .slice(6, -1)
             .split(' ')[1],

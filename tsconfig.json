@@ -5,7 +5,8 @@
       "declaration": true,
       "outDir": "./lib",
       "lib": ["es2015", "es2016", "dom"],
-      "strict": true
+      "strict": true,
+      "sourceMap": true
     },
     "include": ["src", "./typings-custom/**/*.ts"],
     "exclude": ["node_modules", "**/__tests__/*"]

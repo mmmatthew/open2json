@@ -15,6 +15,13 @@ export const zuriBoundingBox: BoundingBox = {
   lonMin: 8.535035848617554,
 };
 
+export const difficultArea = {
+  latMin: 51,
+  lonMin: 14,
+  latMax: 55,
+  lonMax: 15
+};
+
 export const osmGeoJson: FeatureCollection = {
   type: 'FeatureCollection',
   features: [

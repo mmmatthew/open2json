@@ -3,10 +3,10 @@ var importedFunctions = require('../lib/src/query.wikidata')
 var fs = require('fs');
 
 var bbox = {
-    lonMin: 5.73486328125,
-    latMin: 45.706179285330855,
-    lonMax: 8.23974609375,
-    latMax: 47.78363463526376
+    latMin: 51,
+    lonMin: 14,
+    latMax: 55,
+    lonMax: 15
 };
 
 var options = {

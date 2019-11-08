@@ -14145,6 +14145,32 @@
     {
       "type": "Feature",
       "properties": {
+        "id_osm": "node/1502029065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2312988,
+          46.4641574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/1502029371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2313335,
+          46.4649664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id_osm": "node/1502032808"
       },
       "geometry": {
@@ -14166,6 +14192,19 @@
         "coordinates": [
           6.7271881,
           46.0833433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/1509557156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2331487,
+          46.4656293
         ]
       }
     },
@@ -38059,32 +38098,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id_osm": "node/3918947482"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2313124,
-          46.4649577
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id_osm": "node/3918947483"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2331217,
-          46.4656424
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id_osm": "node/3919540460"
       },
       "geometry": {
@@ -41976,6 +41989,19 @@
         "coordinates": [
           8.1014566,
           47.3555193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/4375403903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1019592,
+          46.4405267
         ]
       }
     },
@@ -51886,6 +51912,19 @@
     {
       "type": "Feature",
       "properties": {
+        "id_osm": "node/5372347903"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1580908,
+          46.7941375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id_osm": "node/5377793924",
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Trinkbrunnen_Basel_Leimenstrasse.jpg"
       },
@@ -53379,8 +53418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.4254347,
-          46.9360079
+          7.4254313,
+          46.936013
         ]
       }
     },
@@ -69195,6 +69234,97 @@
         "coordinates": [
           7.4744663,
           46.2105939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6938866794"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.097988,
+          47.1707348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6939648891"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6970334,
+          47.4967081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6939894007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8290119,
+          47.0952596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6952476516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7602419,
+          46.8772443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6952565202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6731921,
+          46.8201115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6952613748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0285816,
+          46.9635651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/6952613749"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0285019,
+          46.9641142
         ]
       }
     }
