@@ -1,9 +1,7 @@
 name: Publish Node.js Package
 
 on:
-  push:
-    paths:
-    - 'src/**'
+  [release]
 
 jobs:
   build:
