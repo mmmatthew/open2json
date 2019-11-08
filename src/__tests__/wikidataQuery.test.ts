@@ -16,23 +16,21 @@ test('Wikidata query returns geoJson', () => {
     });
 });
 
-
 test('Wikidata query in difficult area does not give duplicates', () => {
   const provider = new Provider();
   return provider
     .query(['wikidata'], difficultArea)
     .then(data => {
-      const qids:string[] = [];
-      data.features.forEach(f=>{
+      const qids: string[] = [];
+      data.features.forEach(f => {
         // check that there are no duplicates
-        if(f.properties){
+        if (f.properties) {
           expect(qids.indexOf(f.properties.id_wikidata)).toBeLessThan(0);
           qids.push(f.properties.id_wikidata);
         }
-      })
+      });
     })
     .catch(error => {
       console.error(error);
     });
 });
-

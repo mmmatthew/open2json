@@ -8,7 +8,6 @@ import { FeatureCollection } from 'geojson';
 export function standardizeOsm(data: FeatureCollection): FeatureCollection {
   // loop through features
   data.features.forEach(f => {
-
     // create a new property object and populate it with the existing data according to the "standard_properties"
     if (f.properties) {
       const newProps = {

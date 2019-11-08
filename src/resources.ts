@@ -19,7 +19,7 @@ export const difficultArea = {
   latMin: 51,
   lonMin: 14,
   latMax: 55,
-  lonMax: 15
+  lonMax: 15,
 };
 
 export const osmGeoJson: FeatureCollection = {

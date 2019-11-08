@@ -13,25 +13,23 @@ export function standardizeWikidata(res: any, imageWidth: number = 300): Feature
   };
 
   // list of QIDs
-  const qids:string[] = [];
+  const qids: string[] = [];
 
   res.results.bindings.forEach((o: any) => {
     const qid = o.place.value.split('entity/')[0];
     // only add feature if the feature was not yet seen
-    if(qids.indexOf(qid) < 0) {
+    if (qids.indexOf(qid) < 0) {
       geojson.features.push(createFeature(o, imageWidth));
-      qids.push(qid)
+      qids.push(qid);
     }
   });
-
 
   return geojson;
 }
 
 function createFeature(obj: any, imageWidth: number): Feature {
-
   let imagepath;
-  if ( obj.image ){
+  if (obj.image) {
     // if image is available, make path
     imagepath = getFilePath(obj.image.value.split('Path/')[1], imageWidth);
   }

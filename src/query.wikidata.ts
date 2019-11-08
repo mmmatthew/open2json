@@ -7,7 +7,7 @@ import { standardizeWikidata } from './standardize.wikidata';
 import { BoundingBox, ProviderOptions } from './types';
 
 /**
- * Function to query Wikidata with a bounding box and return results as json. 
+ * Function to query Wikidata with a bounding box and return results as json.
  * Multiple objects are returned if a wikidata has multiple  images or locations. These duplicates can be removed with standardization.
  * @param bbox Bounding box
  * @param options Query options
@@ -29,18 +29,18 @@ export function queryWikidata(
 
     // run api query
     Axios.get(url)
-    .then(res => {
-      if (res.status !== 200) {
-        const error = new Error(`Request to Wikidata Failed. Status Code: ${res.status}. Data: ${res}. Url: ${url}`);
-        return reject(error);
-      } else {
-        // If the data was returned from wikidata, then proceed by turning it into a geoJSON
-        resolve(res.data);
-      }
-    })
-    .catch( error => {
-      console.log(error)
-    });
+      .then(res => {
+        if (res.status !== 200) {
+          const error = new Error(`Request to Wikidata Failed. Status Code: ${res.status}. Data: ${res}. Url: ${url}`);
+          return reject(error);
+        } else {
+          // If the data was returned from wikidata, then proceed by turning it into a geoJSON
+          resolve(res.data);
+        }
+      })
+      .catch(error => {
+        console.log(error);
+      });
   });
 }
 
