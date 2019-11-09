@@ -16,7 +16,7 @@ export function standardizeWikidata(res: any, imageWidth: number = 300): Feature
   const qids: string[] = [];
 
   res.results.bindings.forEach((o: any) => {
-    const qid = o.place.value.split('entity/')[0];
+    const qid = o.place.value.split('entity/')[1];
     // only add feature if the feature was not yet seen
     if (qids.indexOf(qid) < 0) {
       geojson.features.push(createFeature(o, imageWidth));

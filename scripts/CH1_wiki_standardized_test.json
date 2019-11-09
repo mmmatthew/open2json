@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q37833992",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Imst-Florianbrunnen-Floriangasse.JPG/300px-Imst-Florianbrunnen-Floriangasse.JPG",
+        "name": "Florianbrunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.742273,
+          47.239431
+        ]
+      }
+    }
+  ]
+}

@@ -29,6 +29,9 @@ test('Wikidata query in difficult area does not give duplicates', () => {
           qids.push(f.properties.id_wikidata);
         }
       });
+
+      // check that there are more than one features returned
+      expect(data.features.length).toBeGreaterThan(1);
     })
     .catch(error => {
       console.error(error);
