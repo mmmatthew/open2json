@@ -15,7 +15,6 @@ export function conflate(
   wikidataGeoJson: FeatureCollection,
   options: ProviderOptions = defaultOptions,
 ): FeatureCollection {
-
   // matching and property merging
   matchByQID(wikidataGeoJson, osmGeoJson);
   matchByLocation(wikidataGeoJson, osmGeoJson, options.conflateRadius);
@@ -60,7 +59,7 @@ function matchByLocation(
     });
     // copy over data from nearest if nearer than set distance
     const index = indexOfSmallest(distances);
-    if(index >= 0){
+    if (index >= 0) {
       const distance = distances[index];
       const fOsm = osmGeoJson.features[index];
 
@@ -74,19 +73,18 @@ function matchByLocation(
         fOsm.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
         fwiki.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
 
-      // if no match is found
-      }else if(distance > conflateRadius && fwiki.properties && (fwiki.properties.ispotable === true)){
+        // if no match is found
+      } else if (distance > conflateRadius && fwiki.properties && fwiki.properties.ispotable === true) {
         // delete unused properties
-        delete fwiki.properties.ispotable
+        delete fwiki.properties.ispotable;
         fwiki.properties.mergedOn = 'none';
         // copy whole fountain over
         osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
-
       }
-    }else if(fwiki.properties && (fwiki.properties.ispotable === true)){
+    } else if (fwiki.properties && fwiki.properties.ispotable === true) {
       // if no osm fountains exist
       // delete unused properties
-      delete fwiki.properties.ispotable
+      delete fwiki.properties.ispotable;
       fwiki.properties.mergedOn = 'none';
       // copy whole fountain over
       osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
@@ -95,7 +93,9 @@ function matchByLocation(
 }
 
 function indexOfSmallest(a: number[]): number {
-  if(a.length === 0) {return -1;}
+  if (a.length === 0) {
+    return -1;
+  }
 
   let lowest = 0;
   for (let i = 1; i < a.length; i++) {

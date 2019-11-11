@@ -28,7 +28,7 @@ test('Conflation works even if the OSM FeatureCollection is an empty array', () 
   expect(conflated.features.length).toBe(0);
 });
 
-test ('Unmatched wikidata fountains should be copied over to empty osm', ()=>{
+test('Unmatched wikidata fountains should be copied over to empty osm', () => {
   const emptyGeoJson = JSON.parse(JSON.stringify(standardOsmGeoJson));
   emptyGeoJson.features = [];
   const wikiJson = JSON.parse(JSON.stringify(standardWikiGeoJson));
@@ -38,7 +38,7 @@ test ('Unmatched wikidata fountains should be copied over to empty osm', ()=>{
   expect(conflated.features.length).toBe(2);
 });
 
-test ('Unmatched wikidata fountains should be copied over to osm with other locations', ()=>{
+test('Unmatched wikidata fountains should be copied over to osm with other locations', () => {
   const wikiJson = JSON.parse(JSON.stringify(standardWikiGeoJson));
   const osmJson = JSON.parse(JSON.stringify(standardOsmGeoJson));
   const conflated = conflate(osmJson, wikiJson);
