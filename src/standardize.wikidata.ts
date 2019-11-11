@@ -61,7 +61,7 @@ function createFeature(obj: any, imageWidth: number): Feature {
 }
 
 // Function based on https://github.com/simon04/wikimedia-commons-file-path/blob/master/index.js because npm import was not working
-// based on https://github.com/derhuerst/commons-photo-url/blob/master/index.js
+// also based on https://github.com/derhuerst/commons-photo-url/blob/master/index.js
 /**
  *
  * @param file Filename, without "File:" or similar
