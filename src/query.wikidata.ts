@@ -52,7 +52,7 @@ export function queryWikidata(
 export function buildWikidataQueryString(bbox: BoundingBox, options?: ProviderOptions) {
   options = Object.assign(defaultOptions, options);
   const queryString = `
-SELECT DISTINCT ?place ?placeLabel ?image ?location
+SELECT DISTINCT ?place ?placeLabel ?image ?location ?ispotable
 WHERE
         {
           
@@ -66,6 +66,9 @@ WHERE
             bd:serviceParam wikibase:cornerWest "Point(${bbox.lonMin} ${bbox.latMin})"^^geo:wktLiteral.
             bd:serviceParam wikibase:cornerEast "Point(${bbox.lonMax} ${bbox.latMax})"^^geo:wktLiteral.
           } .
+
+          # boolean indicator of potability
+          BIND (EXISTS { ?place wdt:P31/wdt:P279* wd:Q1630622 } as ?ispotable)
           
           # the wikibase:label service allows the label to be returned easily. The list of languages provided are fallbacks: if no English label is available, use German etc.
           SERVICE wikibase:label {

@@ -16,5 +16,5 @@ export const defaultOptions: ProviderOptions = {
     'Q43483', // water well (Q43483)
   ],
   wdImageWidth: 350, // width in pixels of image to return
-  conflateRadius: 10, // search radius for fountains
+  conflateRadius: 20, // search radius for fountains
 };

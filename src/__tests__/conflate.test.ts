@@ -1,5 +1,5 @@
 import { conflate, Provider } from '../index';
-import { osmGeoJson, zuriBoundingBox } from '../resources';
+import { osmGeoJson, standardOsmGeoJson, standardWikiGeoJson, zuriBoundingBox } from '../resources';
 
 jest.setTimeout(30000);
 
@@ -26,4 +26,23 @@ test('Conflation works even if the OSM FeatureCollection is an empty array', () 
 
   expect(conflated.type).toBe('FeatureCollection');
   expect(conflated.features.length).toBe(0);
+});
+
+test ('Unmatched wikidata fountains should be copied over to empty osm', ()=>{
+  const emptyGeoJson = JSON.parse(JSON.stringify(standardOsmGeoJson));
+  emptyGeoJson.features = [];
+  const wikiJson = JSON.parse(JSON.stringify(standardWikiGeoJson));
+
+  const conflated = conflate(emptyGeoJson, wikiJson);
+
+  expect(conflated.features.length).toBe(2);
+});
+
+test ('Unmatched wikidata fountains should be copied over to osm with other locations', ()=>{
+  const wikiJson = JSON.parse(JSON.stringify(standardWikiGeoJson));
+  const osmJson = JSON.parse(JSON.stringify(standardOsmGeoJson));
+  const conflated = conflate(osmJson, wikiJson);
+
+  // there are no matches, so the two should be merged together
+  expect(conflated.features.length).toBe(6);
 });
