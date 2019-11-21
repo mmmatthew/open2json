@@ -1,5 +1,5 @@
 import { Provider } from '../index';
-import { baselBoundingBox, difficultArea } from '../resources';
+import { baselBoundingBox, difficultArea, zuriBoundingBox } from '../resources';
 
 jest.setTimeout(30000);
 
@@ -37,3 +37,24 @@ test('Wikidata query in difficult area does not give duplicates', () => {
       console.error(error);
     });
 });
+
+test('Wikidata query should not return demolished fountains', () => {
+  const provider = new Provider();
+  return provider
+    .query(['wikidata'], zuriBoundingBox)
+    .then(data => {
+      
+      const qids = data.features.map(f => {
+        // check that the demolished fountains are not returned
+        if (f.properties) {
+          return f.properties.id_wikidata;
+        }
+      });
+
+      // check that this demolished fountain is not returned in the results
+      expect(qids.indexOf('Q55166053')).toBe(-1);
+    })
+    .catch(error => {
+      console.error(error);
+    });
+})

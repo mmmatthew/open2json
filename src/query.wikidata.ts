@@ -45,7 +45,7 @@ export function queryWikidata(
 }
 
 /**
- * build query string for wikidata
+ * build query string for fountains in Wikidata. Do not return demolished fountains.
  * @param bbox Bounding box in which to query
  * @param options query options
  */
@@ -59,6 +59,9 @@ WHERE
 
           # The results of the spatial query are limited to instances or subclasses of entity classes
           FILTER (${options.wdEntityClasses.map(eC => `EXISTS { ?place wdt:P31/wdt:P279* wd:${eC} }`).join(' || ')}).
+
+          # Do not include fountains that have the "demolished date" property
+          FILTER ( !BOUND(?destruction_date)).
           
           SERVICE wikibase:box {
             # this service allows points within a box to be queried (https://en.wikibooks.org/wiki/SPARQL/SERVICE_-_around_and_box) 
@@ -77,6 +80,7 @@ WHERE
           
           # It is important to place the OPTIONAL after the filters, otherwise the query times out
           OPTIONAL{ ?place wdt:P18 ?image. }
+          OPTIONAL { ?place wdt:P576 ?detruction_date}.
         }`;
 
   return queryString;
