@@ -43,7 +43,6 @@ test('Wikidata query should not return demolished fountains', () => {
   return provider
     .query(['wikidata'], zuriBoundingBox)
     .then(data => {
-      
       const qids = data.features.map(f => {
         // check that the demolished fountains are not returned
         if (f.properties) {
@@ -57,4 +56,4 @@ test('Wikidata query should not return demolished fountains', () => {
     .catch(error => {
       console.error(error);
     });
-})
+});

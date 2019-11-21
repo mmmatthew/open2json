@@ -35,7 +35,7 @@ function matchByQID(wikidataGeoJson: FeatureCollection, osmGeoJson: FeatureColle
         fwiki.properties.mergedOn = 'id_wikidata';
 
         // if OSM lists the fountain as drinking water but not wikidata, make a comment
-        if( fwiki.properties.ispotable==="false" ){
+        if (fwiki.properties.ispotable === 'false') {
           fOsm.properties.comments = ` Add instance of 'drinking fountain' to wikidata item ${fOsm.properties.id_wikidata} .`;
         }
       }
@@ -78,9 +78,8 @@ function matchByLocation(
         fOsm.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
         fwiki.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
 
-        
         // if OSM lists the fountain as drinking water but not wikidata, make a comment
-        if( fwiki.properties.ispotable==="false" ){
+        if (fwiki.properties.ispotable === 'false') {
           fOsm.properties.comments = ` Add instance of "drinking fountain" to wikidata item ${fOsm.properties.id_wikidata} .`;
         }
 
