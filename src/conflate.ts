@@ -50,8 +50,12 @@ function matchByLocation(
 ): void {
   // loop through wikidata and find matches for each
   wikidataGeoJson.features.forEach(fwiki => {
+
+    // only consider wikidata fountains that have not been matched
+    if(fwiki.properties && fwiki.properties.mergedOn !== 'id_wikidata'){
+
     const distances = osmGeoJson.features.map(fosm => {
-      // don't consider fountain if already matched
+      // don't consider osm fountain if already matched
       if (!fosm.properties || (fosm.properties && fosm.properties.mergedOn)) {
         return 100;
         // otherwise compute distance
@@ -84,14 +88,14 @@ function matchByLocation(
         }
 
         // if no match is found
-      } else if (distance > conflateRadius && fwiki.properties && fwiki.properties.ispotable === true) {
+      } else if ((distance > conflateRadius) && fwiki.properties && (fwiki.properties.ispotable === 'true')) {
         // delete unused properties
         delete fwiki.properties.ispotable;
         fwiki.properties.mergedOn = 'none';
         // copy whole fountain over
         osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
       }
-    } else if (fwiki.properties && fwiki.properties.ispotable === true) {
+    } else if (fwiki.properties && fwiki.properties.ispotable === 'true') {
       // if no osm fountains exist
       // delete unused properties
       delete fwiki.properties.ispotable;
@@ -99,7 +103,9 @@ function matchByLocation(
       // copy whole fountain over
       osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
     }
+    }
   });
+
 }
 
 function indexOfSmallest(a: number[]): number {

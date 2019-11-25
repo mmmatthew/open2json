@@ -108,7 +108,7 @@ export const standardWikiGeoJson: FeatureCollection = {
       type: 'Feature',
       properties: {
         id_wikidata: 'Q22952244',
-        ispotable: true,
+        ispotable: 'true',
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bourogne%2C_Lavoir_du_corps_de_garde.jpg/300px-Bourogne%2C_Lavoir_du_corps_de_garde.jpg',
         name: 'fontaine-lavoir du corps de garde',
@@ -122,7 +122,7 @@ export const standardWikiGeoJson: FeatureCollection = {
       type: 'Feature',
       properties: {
         id_wikidata: 'Q56570011',
-        ispotable: true,
+        ispotable: 'true',
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Schwanengasse-Brunnen_(Schwan_-_Heinz_Schwarz_1956)_05.jpg/300px-Schwanengasse-Brunnen_(Schwan_-_Heinz_Schwarz_1956)_05.jpg',
         name: 'Schwanengasse fountain',
@@ -136,7 +136,7 @@ export const standardWikiGeoJson: FeatureCollection = {
       type: 'Feature',
       properties: {
         id_wikidata: 'Q56721751',
-        ispotable: false,
+        ispotable: 'false',
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Zwillingsbrunnen_Bundeshaus_03.jpg/300px-Zwillingsbrunnen_Bundeshaus_03.jpg',
         name: 'twin fountains Federal Palace',

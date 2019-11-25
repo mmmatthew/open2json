@@ -1032,8 +1032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.7003882,
-          47.3623469
+          8.7003824,
+          47.3623605
         ]
       }
     },
@@ -9332,8 +9332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6718655,
-          47.4302333
+          8.6718699,
+          47.4302326
         ]
       }
     },
@@ -11418,8 +11418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6631967,
-          47.4326397
+          8.6630683,
+          47.4325359
         ]
       }
     },
@@ -11844,8 +11844,12 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Brunnen Schindlerpark Spielplatz",
         "id_osm": "node/846169263",
-        "id_wikidata": "Q64015724"
+        "id_wikidata": "Q64015724",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Brunnen_Schindlerpark_Spielplatz.jpg/350px-Brunnen_Schindlerpark_Spielplatz.jpg",
+        "mergedOn": "id_wikidata",
+        "comments": " Add instance of 'drinking fountain' to wikidata item Q64015724 ."
       },
       "geometry": {
         "type": "Point",
@@ -15152,6 +15156,19 @@
         "coordinates": [
           8.5417971,
           47.4064322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/1269741256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2269442,
+          47.3513916
         ]
       }
     },
@@ -20086,8 +20103,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6725795,
-          47.4291706
+          8.6725785,
+          47.4291708
         ]
       }
     },
@@ -44995,7 +45012,7 @@
         "name": "Brunnen bei Zweierstrasse 61",
         "id_osm": "node/4971976337",
         "id_wikidata": "Q55166419",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Brunnen_Zweierstrasse_62.jpg/350px-Brunnen_Zweierstrasse_62.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Brunnen_Zweierstrasse_61.jpg/350px-Brunnen_Zweierstrasse_61.jpg",
         "mergedOn": "coordinates: 0.26 m"
       },
       "geometry": {
@@ -54271,8 +54288,12 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Wasserhahn vor KiTa",
         "id_osm": "node/6511998516",
-        "id_wikidata": "Q64174640"
+        "id_wikidata": "Q64174640",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/20190530_1600WasserhahnVorKiTa.jpg/350px-20190530_1600WasserhahnVorKiTa.jpg",
+        "mergedOn": "id_wikidata",
+        "comments": " Add instance of 'drinking fountain' to wikidata item Q64174640 ."
       },
       "geometry": {
         "type": "Point",
@@ -55596,9 +55617,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Deceitful Habits in a Human's Soul",
+        "name": "Mann mit Pferd",
         "id_osm": "node/6658161902",
-        "id_wikidata": "Q74369417"
+        "id_wikidata": "Q74369417",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bonze_Brunne_\"Pferd_%26_Mann\".jpg/350px-Bonze_Brunne_\"Pferd_%26_Mann\".jpg",
+        "mergedOn": "id_wikidata",
+        "comments": " Add instance of 'drinking fountain' to wikidata item Q74369417 ."
       },
       "geometry": {
         "type": "Point",
@@ -57203,6 +57227,6438 @@
         "coordinates": [
           8.6501065,
           47.4465008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/7004467966"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7864824,
+          47.3270792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/7006050451"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6254678,
+          47.5751579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_osm": "node/7006058256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6235849,
+          47.5748953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166436",
+        "name": "Altstetten",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.46621554,
+          47.38629554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166343",
+        "name": "Im Hofe",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52903218,
+          47.38577629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166463",
+        "name": "UBS Brunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49438996,
+          47.38331758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166666",
+        "name": "Freibad Allenmoos",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53840387,
+          47.40521375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166664",
+        "name": "Freibad Allenmoos",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53850747,
+          47.40446968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166223",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Brunnen_Rieterpark.jpg/350px-Brunnen_Rieterpark.jpg",
+        "name": "Water Fountain Rieterpark",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53059331,
+          47.35774125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166699",
+        "name": "Schulhaus Waidhalde, Turnhalle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52669053,
+          47.39741905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166714",
+        "name": "Schulhaus Waidhalde, Turnhalle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52655655,
+          47.39674381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166335",
+        "name": "Q55166335",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52629866,
+          47.37997212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166438",
+        "name": "Q55166438",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47918691,
+          47.39073897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166217",
+        "name": "Seerestaurant",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53615084,
+          47.35886535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166326",
+        "name": "Wasserspiel",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51595785,
+          47.37961892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166360",
+        "name": "Friedhof Sihlfeld B",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51017888,
+          47.37382756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166385",
+        "name": "Friedhof Sihlfeld B",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51122589,
+          47.37456276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166268",
+        "name": "Schindlergut",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53605007,
+          47.38658845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166456",
+        "name": "Korporationswald Altstetten",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4599026,
+          47.38116856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166245",
+        "name": "Turnhalle und hinter Spielwiese",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53154048,
+          47.39029165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166257",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Wasserspiel_Brunnen_vor_Schule_Letten.jpg/350px-Wasserspiel_Brunnen_vor_Schule_Letten.jpg",
+        "name": "Wasserspiel",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53384084,
+          47.38865753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166716",
+        "name": "beim Altersheim",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54605611,
+          47.4169303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166086",
+        "name": "Brunnen Haus zum Kiel",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54733802,
+          47.37056614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166125",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Im_DurchgangStadthaus_u._Kirche.jpg/350px-Im_DurchgangStadthaus_u._Kirche.jpg",
+        "name": "im Durchgang Stadthaus u. Kirche",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5410517,
+          47.36950667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166069",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Fountain_Helsana_Building.jpg/350px-Fountain_Helsana_Building.jpg",
+        "name": "Q55166069",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5467953,
+          47.36687956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q27229660",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Niederdorf_-_Stüssihofstatt_2011-07-15_21-03-04_ShiftN2.jpg/350px-Niederdorf_-_Stüssihofstatt_2011-07-15_21-03-04_ShiftN2.jpg",
+        "name": "Stüssibrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5437,
+          47.3725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q27229889",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Zürich_-_General-Guisan-Quai_IMG_0824.JPG/350px-Zürich_-_General-Guisan-Quai_IMG_0824.JPG",
+        "name": "Mosaikbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53783598,
+          47.364622479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166053",
+        "name": "bei der Turnhalle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5492227,
+          47.37094611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166062",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Fountain_on_Klusstrasse.jpg/350px-Fountain_on_Klusstrasse.jpg",
+        "name": "Q55166062",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56977284,
+          47.36448528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166059",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Villa_kreuzbuehl_fountain.jpg/350px-Villa_kreuzbuehl_fountain.jpg",
+        "name": "Brunnen Villa Kreuzbuehl",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55202735,
+          47.36591318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166070",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Fountain_Hohe_Promenade.jpg/350px-Fountain_Hohe_Promenade.jpg",
+        "name": "obere Anlage",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54871716,
+          47.36763236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166175",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Fraumünster_-_Kreuzgang_2011-06-15_12-59-14.jpg/350px-Fraumünster_-_Kreuzgang_2011-06-15_12-59-14.jpg",
+        "name": "Fraumünsterdurchgang",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54154756,
+          47.36959811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166177",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Münsterhof_Trinkbrunnen.jpg/350px-Münsterhof_Trinkbrunnen.jpg",
+        "name": "Emergency fountain",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54140355,
+          47.37016689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166102",
+        "name": "Ref. Kirchgemeinde Witikon",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58626308,
+          47.35792108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q27230085",
+        "name": "Brunnenschale",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.538458684,
+          47.365509527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166825",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/20190530_1452SumatrastrBrunnen.jpg/350px-20190530_1452SumatrastrBrunnen.jpg",
+        "name": "Sumatra Brunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54476439,
+          47.38221171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166567",
+        "name": "Freibad Auhof",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57111874,
+          47.40847353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166570",
+        "name": "Freibad Auhof",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57135751,
+          47.40818268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166572",
+        "name": "Freibad Auhof",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57150245,
+          47.40794123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166615",
+        "name": "Kanzleibrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54817925,
+          47.40726733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166608",
+        "name": "Schulhaus Friedrichstrasse 21",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56798958,
+          47.40475628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166599",
+        "name": "Schulhaus Herzogenmühle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57279395,
+          47.40787351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166603",
+        "name": "Schulhaus Herzogenmühle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57347022,
+          47.40881334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166819",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Brunnen_Platzspitz_Mitte.jpg/350px-Brunnen_Platzspitz_Mitte.jpg",
+        "name": "beim Pavillon",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53966723,
+          47.38024111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166784",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Brunnen_Schulhaus_Weinberg_Sportplatz.jpg/350px-Brunnen_Schulhaus_Weinberg_Sportplatz.jpg",
+        "name": "Schulhaus Weinbergstrasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53998403,
+          47.38910287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166823",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/20190530_1606BunnenSonntagsSteigTurnerStrasse.jpg/350px-20190530_1606BunnenSonntagsSteigTurnerStrasse.jpg",
+        "name": "Bunnen Sonntagssteig / Turnerstrasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5451,
+          47.3834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166524",
+        "name": "Rastplatz Büsisee-Süd",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51115104,
+          47.42932712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166596",
+        "name": "Kreisgebäude",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54677137,
+          47.4072168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166813",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/20190530_1615BrunnenGallusstraStampenbachstr.jpg/350px-20190530_1615BrunnenGallusstraStampenbachstr.jpg",
+        "name": "Brunnen Gallusstrasse / Stampfenbachstrasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5397,
+          47.3859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166799",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/20190530_1506Culmanstr.jpg/350px-20190530_1506Culmanstr.jpg",
+        "name": "Brunnen Culmanstr",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54706601,
+          47.37932539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166650",
+        "name": "Q55166650",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50503013,
+          47.40456556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166791",
+        "name": "Q55166791",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55127931,
+          47.38735829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166804",
+        "name": "Brunnen Linde Oberstrass",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5481,
+          47.3836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166828",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/20190530_1456SonegBrunnen.jpg/350px-20190530_1456SonegBrunnen.jpg",
+        "name": "Sonegg Brunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5456111,
+          47.38102147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166606",
+        "name": "Schulhaus Auhof",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57193638,
+          47.40758632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166466",
+        "name": "Schulhaus Eugen Huber-Strasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48601994,
+          47.38519196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166620",
+        "name": "bei der Christuskirche",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54929856,
+          47.40461376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166795",
+        "name": "Schulhaus Riedtlistrasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54345647,
+          47.38900041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166802",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/20190530_1514BrunnenUniversitaetsstr.jpg/350px-20190530_1514BrunnenUniversitaetsstr.jpg",
+        "name": "Brunnen Universitätsstr",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54829806,
+          47.38008138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166811",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/20190530_1611BrunnenKurvenstrBeckenhofstr.jpg/350px-20190530_1611BrunnenKurvenstrBeckenhofstr.jpg",
+        "name": "Brunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541,
+          47.3857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166526",
+        "name": "Rastplatz Büsisee-Nord",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51173618,
+          47.43066691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170266",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Schulhaus_nordstrasse_spielplatz_a_01.jpg/350px-Schulhaus_nordstrasse_spielplatz_a_01.jpg",
+        "name": "Brunnen (Schulhaus Nordstrasse , Pausenplatz)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52674067,
+          47.39479043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167924",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Bahnhofstrasse_Zürich_-_Pestalozziwiese_2010-08-27_19-05-36.jpg/350px-Bahnhofstrasse_Zürich_-_Pestalozziwiese_2010-08-27_19-05-36.jpg",
+        "name": "Pariserbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53892875,
+          47.37533769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170262",
+        "name": "Brunnen (Badanstalt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53540305,
+          47.38510714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170260",
+        "name": "Brunnen (Badanstalt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53475857,
+          47.38548252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170264",
+        "name": "Brunnen (Badanstalt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53561783,
+          47.38496117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170276",
+        "name": "Brunnen (Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55471811,
+          47.40499486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167891",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/USZ_Dermatologische_Klinik.jpg/350px-USZ_Dermatologische_Klinik.jpg",
+        "name": "Fountain Dermatologische Klinik",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55284117,
+          47.37646616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167971",
+        "name": "Rieterpark",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53105275,
+          47.35749993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170273",
+        "name": "Brunnen (Gewerbeschulhaus Oerlikon)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54507381,
+          47.40822714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167903",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Brunnen_Bergstrasse_Ecke_Zürichbergstrasse.jpg/350px-Brunnen_Bergstrasse_Ecke_Zürichbergstrasse.jpg",
+        "name": "Gsellenbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55961927,
+          47.37575489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167895",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Brunnen_Rämibühl_Turnhallen_Aussenplatz.jpg/350px-Brunnen_Rämibühl_Turnhallen_Aussenplatz.jpg",
+        "name": "Kantonsschul-Turnhalle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55120906,
+          47.37371096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166749",
+        "name": "Kranzbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50081987,
+          47.40280944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167897",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Brunnen_Rämistrasse_62_UZH-RAG%2C_im_Garten.jpg/350px-Brunnen_Rämistrasse_62_UZH-RAG%2C_im_Garten.jpg",
+        "name": "Q55167897",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55095555,
+          47.37191388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166735",
+        "name": "Q55166735",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56882862,
+          47.4026392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166740",
+        "name": "Q55166740",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51245013,
+          47.4215401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166838",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brunnen_Archäologisches_Museum.jpg/350px-Brunnen_Archäologisches_Museum.jpg",
+        "name": "Q55166838",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54864564,
+          47.37533136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170278",
+        "name": "Brunnen (Schulpavillon)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57832498,
+          47.40089208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166753",
+        "name": "Schuhlhaus Buhnrain 40",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.542879,
+          47.42071408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167968",
+        "name": "Brunnen Burgweg Zollikerstr",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55831763,
+          47.35927472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170271",
+        "name": "Brunnen (Schulhaus Ligusterstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54467138,
+          47.40654021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170241",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Eingang_Schulhaus_Altstetten_Gebrüder_Pfister_1910.jpg/350px-Eingang_Schulhaus_Altstetten_Gebrüder_Pfister_1910.jpg",
+        "name": "Brunnen (Schulhaus Altstetterstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48638528,
+          47.38596628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166780",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Schulhaus_Röslistrasse_Turnhalle.jpg/350px-Schulhaus_Röslistrasse_Turnhalle.jpg",
+        "name": "Schulhaus Röslistrasse   Turnhalle",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54199111,
+          47.38831485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170250",
+        "name": "Brunnen (Schulhaus Letzi)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49753965,
+          47.37065773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170248",
+        "name": "Brunnen (Schulhaus Letzi)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49718053,
+          47.37090718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170256",
+        "name": "Brunnen (Schulhaus Lachenzelg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48927622,
+          47.40538408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167944",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lindenhof_Brunnen_(klein).jpg/350px-Lindenhof_Brunnen_(klein).jpg",
+        "name": "Emergency fountain",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54026782,
+          47.3730332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55165905",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Brunnen_Loorengutweg.jpg/350px-Brunnen_Loorengutweg.jpg",
+        "name": "Findlingsbrunnen mit Boxer-Relief",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5908113,
+          47.36929262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167900",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brunnen_im_Innenhof_der_Uni_Zürich.jpg/350px-Brunnen_im_Innenhof_der_Uni_Zürich.jpg",
+        "name": "innerhalb Universität",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54818578,
+          47.3751074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166756",
+        "name": "bei Kiosk",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50805909,
+          47.40804336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170269",
+        "name": "Brunnen (Schulhaus Gubel A und B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54151035,
+          47.40786874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167943",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Brunnen_-_panoramio_(18).jpg/350px-Brunnen_-_panoramio_(18).jpg",
+        "name": "Im Hofe",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54753544,
+          47.37458941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55167974",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Brunnen_Schulhaus_Lavater.jpg/350px-Brunnen_Schulhaus_Lavater.jpg",
+        "name": "Schulhaus Lavater",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53241431,
+          47.36080585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170103",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Brunnen_Kantonsschule_Hohe_Promenade.jpg/350px-Brunnen_Kantonsschule_Hohe_Promenade.jpg",
+        "name": "Fountain School House Hohe Promenade",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54846389,
+          47.36861105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170447",
+        "name": "Brunnen (Schulhaus Stettbach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58165538,
+          47.40086032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170444",
+        "name": "Brunnen (Schulhaus Stettbach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58046286,
+          47.40152178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170455",
+        "name": "Brunnen (im Garten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55016448,
+          47.3674955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170452",
+        "name": "Brunnen (im Garten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55026779,
+          47.36764453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170220",
+        "name": "Brunnen (Schulhaus Langmatt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58754043,
+          47.35687235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170228",
+        "name": "Brunnen (Schulhaus Langmatt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58686211,
+          47.35701069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170059",
+        "name": "Brunnen (Stadtspital Triemli, Spital)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49773906,
+          47.36558284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170061",
+        "name": "Brunnen (Stadtspital Triemli, Spital)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49744052,
+          47.36595043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170058",
+        "name": "Stadtspital Triemli, Maternité. Trinkbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49583051,
+          47.36546511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170126",
+        "name": "Brunnen (beim Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52662453,
+          47.34006277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170127",
+        "name": "Brunnen (beim Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51702213,
+          47.33338985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170237",
+        "name": "Brunnen (Schulpavillon Hornbachstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.553061,
+          47.35498214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170489",
+        "name": "Brunnen (Freibad und Freizeitanlage Heuried)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50543083,
+          47.36787679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170432",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/20190331_Neptunbrunnen.jpg/350px-20190331_Neptunbrunnen.jpg",
+        "name": "Neptunbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54878965,
+          47.37241586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170119",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Belvoirpark_2012-09-30_00-24-38.jpg/350px-Belvoirpark_2012-09-30_00-24-38.jpg",
+        "name": "Q55170119",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53363378,
+          47.35727974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170215",
+        "name": "Trinkbrunnen (Spielplatz Artergut)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55482982,
+          47.36592588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170439",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Brunnen_Rämibühl_Sportplatz%2C_Nord.jpg/350px-Brunnen_Rämibühl_Sportplatz%2C_Nord.jpg",
+        "name": "Brunnen (Kantonsschul-Turnhalle)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55085266,
+          47.37450531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170092",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/20190530_1551BrunnenStotzeWieseOttikerweg.jpg/350px-20190530_1551BrunnenStotzeWieseOttikerweg.jpg",
+        "name": "Brunnen (Spielplatzanlage Oberstrass)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5472,
+          47.3859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170442",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fountain_Mühle_Hirslanden.jpg/350px-Fountain_Mühle_Hirslanden.jpg",
+        "name": "Fountain Burgwies",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57061406,
+          47.35861921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170056",
+        "name": "Q55170056",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48845165,
+          47.38248042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170066",
+        "name": "Q55170066",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49795486,
+          47.37629668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170074",
+        "name": "Q55170074",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5129109,
+          47.3936875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170458",
+        "name": "Q55170458",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49800563,
+          47.40173904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170097",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Felix_und_Regulabrunnen.jpg/350px-Felix_und_Regulabrunnen.jpg",
+        "name": "Felix und Regulabrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5407988,
+          47.37527485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170114",
+        "name": "Brunnen (Schulhaus Wollishofen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53412623,
+          47.34105678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170116",
+        "name": "Brunnen (Schulhaus Wollishofen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53383301,
+          47.34176041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170124",
+        "name": "Brunnen (Schulhaus Manegg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52671598,
+          47.34808303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170129",
+        "name": "Brunnen (Schulpavillon)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53315101,
+          47.33836497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170205",
+        "name": "Brunnen (Schulhaus Allenmoos I)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53928721,
+          47.40219009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170213",
+        "name": "Brunnen (Schulhaus Hofackerstrasse  Turnhalle)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56507718,
+          47.36242003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170462",
+        "name": "Brunnen (Freibad Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54806314,
+          47.42412359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170460",
+        "name": "Brunnen (Im Hofe, Haus zur Asp)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52875031,
+          47.35200969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170465",
+        "name": "Brunnen (Freibad Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54796567,
+          47.42341449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170468",
+        "name": "Brunnen (Freibad Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5473059,
+          47.42358895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170494",
+        "name": "Brunnen (Schulhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51051928,
+          47.41402373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170122",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Brunnen_(Schulhaus_Gabler).jpg/350px-Brunnen_(Schulhaus_Gabler).jpg",
+        "name": "Brunnen (Schulhaus Gabler)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52995456,
+          47.36025423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170087",
+        "name": "Brunnen (Im Hof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55261372,
+          47.40996119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170292",
+        "name": "Brunnen (Schulhaus Probstei)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5769766,
+          47.40148113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170203",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Brunnen_(Schulhaus_Turnerstrasse).jpg/350px-Brunnen_(Schulhaus_Turnerstrasse).jpg",
+        "name": "Brunnen (Schulhaus Turnerstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54180275,
+          47.38789841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170224",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Brunnen_Kantonsschule_Hottingen.jpg/350px-Brunnen_Kantonsschule_Hottingen.jpg",
+        "name": "Brunnen (Gottfried Keller-Schulhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55231207,
+          47.36811872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170079",
+        "name": "Brunnen (Krankenheim Käferberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51645426,
+          47.39907446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170211",
+        "name": "Brunnen (Schulhaus Huttenstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5488,
+          47.3821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170495",
+        "name": "Brunnen (Schulhaus Vogtsrain)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49931896,
+          47.40402006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170071",
+        "name": "Brunnen (hinter 50)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56154745,
+          47.38111835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170068",
+        "name": "Brunnen (Schulhaus Heubeeribüel)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56579753,
+          47.38157844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170112",
+        "name": "Brunnen (Pfrundhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54602539,
+          47.37683164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170231",
+        "name": "Brunnen (Schulhaus Heubeeribüel)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56540267,
+          47.381667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170233",
+        "name": "Brunnen (Schulhaus Looren A)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59678673,
+          47.36137743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170063",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Natursteinbrunnen_im_Uni_Spitals_Park_Zürich_1.jpg/350px-Natursteinbrunnen_im_Uni_Spitals_Park_Zürich_1.jpg",
+        "name": "Gibber Fountian University Hospital Park YH 1",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55058129,
+          47.37622841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170077",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hegibachstrasse_Ecke_Kempterstrasse.jpg/350px-Hegibachstrasse_Ecke_Kempterstrasse.jpg",
+        "name": "Q55170077",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56825602,
+          47.36562787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170109",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Brunne_im_Innenhof_der_Florhofgasse_3.jpg/350px-Brunne_im_Innenhof_der_Florhofgasse_3.jpg",
+        "name": "Brunnen (Schulhaus Wolfbach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54845494,
+          47.37152762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170437",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/20190515_1809LoewenbrunnenKirchgasse44.jpg/350px-20190515_1809LoewenbrunnenKirchgasse44.jpg",
+        "name": "Löwenbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54618809,
+          47.37030419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170310",
+        "name": "Brunnen (Schulhaus Riedenhalde B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51194553,
+          47.41909699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170315",
+        "name": "Brunnen (Schulhaus Riedenhalde B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51125604,
+          47.41948979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170312",
+        "name": "Brunnen (Schulhaus Riedenhalde B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51231559,
+          47.41923242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170422",
+        "name": "Karlsbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53607492,
+          47.39233879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170350",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Brunnen_Schienhutgasse_7.jpg/350px-Brunnen_Schienhutgasse_7.jpg",
+        "name": "Brunnen (Im Hofe)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54654321,
+          47.37538744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170349",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Brunnen_im_Innenhof_von_Hirschengraben_56.jpg/350px-Brunnen_im_Innenhof_von_Hirschengraben_56.jpg",
+        "name": "Brunnen (Im Hofe)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54632056,
+          47.37500775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170755",
+        "name": "Brunnen (Freibad Auhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57047226,
+          47.40781034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170768",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53810335,
+          47.37795148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170760",
+        "name": "Brunnen (beim Friedhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60209237,
+          47.36275519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170778",
+        "name": "Brunnen (im Areal des Zoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57389663,
+          47.38511214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170782",
+        "name": "Brunnen (im Areal des Zoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57456413,
+          47.38662505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170780",
+        "name": "Brunnen (im Areal des Zoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57326354,
+          47.38692425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170487",
+        "name": "Brunnen (Freibad und Freizeitanlage Heuried)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5056654,
+          47.36723302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170485",
+        "name": "Brunnen (Freibad und Freizeitanlage Heuried)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50437449,
+          47.36700172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170715",
+        "name": "Brunnen (Krankenheim Mattenhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59362109,
+          47.39998326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170729",
+        "name": "Brunnen (Schulhaus Untermoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48156823,
+          47.38015768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170338",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Brunnen_Huttenkopfstrasse_28.jpg/350px-Brunnen_Huttenkopfstrasse_28.jpg",
+        "name": "Q55170338",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56991413,
+          47.40202731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170360",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Brunnen_Hochaus_zur_Palme.jpg/350px-Brunnen_Hochaus_zur_Palme.jpg",
+        "name": "Q55170360",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5335839,
+          47.36660599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170342",
+        "name": "Brunnen (ref. Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53164382,
+          47.33837571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170691",
+        "name": "Brunnen (Verwaltungsgebäude)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50753259,
+          47.4128616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170363",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Stiftung_Hirslanden.jpg/350px-Stiftung_Hirslanden.jpg",
+        "name": "Fountain Stiftung Hirslanden",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57740611,
+          47.3507974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170379",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wehrenbachhalde.jpg/350px-Wehrenbachhalde.jpg",
+        "name": "Fountain Wehrenbachhalde",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57767073,
+          47.35744433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170334",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Obere_Zäune.jpg/350px-Obere_Zäune.jpg",
+        "name": "Obere/Untere Zäune",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54598698,
+          47.37122977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170724",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Brunnen_(Badanstalt_Wollishofen).jpg/350px-Brunnen_(Badanstalt_Wollishofen).jpg",
+        "name": "Brunnen (Badanstalt Wollishofen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53756638,
+          47.34092974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170330",
+        "name": "Q55170330",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50412194,
+          47.33686629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170355",
+        "name": "Q55170355",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50863476,
+          47.40859838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170353",
+        "name": "Q55170353",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52091204,
+          47.38078313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170356",
+        "name": "Q55170356",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51583095,
+          47.41267466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170365",
+        "name": "Q55170365",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50544446,
+          47.32322613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170369",
+        "name": "Q55170369",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53267518,
+          47.35389712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170374",
+        "name": "Q55170374",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59657576,
+          47.35659626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170373",
+        "name": "Q55170373",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55476601,
+          47.4004462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170377",
+        "name": "Q55170377",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59579816,
+          47.35789931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170387",
+        "name": "Q55170387",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48261668,
+          47.38421243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170390",
+        "name": "Q55170390",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48470154,
+          47.40388754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170388",
+        "name": "Q55170388",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50085517,
+          47.39874426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170395",
+        "name": "Q55170395",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50449549,
+          47.39957927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170392",
+        "name": "Q55170392",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47858231,
+          47.40854777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170402",
+        "name": "Q55170402",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48483907,
+          47.40946028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170403",
+        "name": "Q55170403",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48051742,
+          47.41121959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170400",
+        "name": "Q55170400",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48250593,
+          47.40876355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170406",
+        "name": "Q55170406",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49503972,
+          47.40345884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170411",
+        "name": "Q55170411",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56631301,
+          47.40241114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170408",
+        "name": "Q55170408",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51267348,
+          47.39846281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170414",
+        "name": "Q55170414",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56639862,
+          47.40225832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170417",
+        "name": "Q55170417",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57903394,
+          47.39814213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170420",
+        "name": "Q55170420",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51945145,
+          47.42795156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170427",
+        "name": "Q55170427",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50053982,
+          47.40133415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170430",
+        "name": "Q55170430",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54910894,
+          47.41429462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170482",
+        "name": "Q55170482",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52975549,
+          47.34323126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170694",
+        "name": "Q55170694",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55741557,
+          47.35722871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170696",
+        "name": "Q55170696",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55720422,
+          47.35717517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170702",
+        "name": "Q55170702",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52194421,
+          47.38536178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170704",
+        "name": "Q55170704",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52190619,
+          47.38503747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170700",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Kinderspital_Brunnen.jpg/350px-Kinderspital_Brunnen.jpg",
+        "name": "Fountain at the Zurich Children's hospital",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55772059,
+          47.37164801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170762",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/20190415BrunnenHB_Gleis16_17westlSihl.jpg/350px-20190415BrunnenHB_Gleis16_17westlSihl.jpg",
+        "name": "Fountain (Perronanlage Main station Track 16/17 W)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53717484,
+          47.37918756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170728",
+        "name": "Springbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54131382,
+          47.38447676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170366",
+        "name": "Brunnen (westlich Nr. 422 und 426)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5360052,
+          47.34227418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170690",
+        "name": "Brunnen (Schulhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51616064,
+          47.32688063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170706",
+        "name": "Brunnen (Wohnüberbauung)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51075706,
+          47.35365142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170786",
+        "name": "Brunnen (im Areal des Zoo's)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57449986,
+          47.38637944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170788",
+        "name": "Brunnen (im Areal des Zoo's)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57446896,
+          47.38628188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170325",
+        "name": "Brunnen (beim Krematorium)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52669906,
+          47.40584975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170370",
+        "name": "Brunnen (Im Hofe der Brandwache)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52449253,
+          47.36964225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170713",
+        "name": "Brunnen (Krankenheim Käferberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51696233,
+          47.39929221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170735",
+        "name": "Brunnen (Schulhaus Käferholz)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52315385,
+          47.41165221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170758",
+        "name": "Brunnen (Kantonsschule Bühl B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5164462,
+          47.36853776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170795",
+        "name": "Brunnen (Wassermauer)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48814152,
+          47.39130545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170804",
+        "name": "Brunnen (Gutsbetrieb)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47130849,
+          47.39848818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170425",
+        "name": "Brunnen (St. Katherina-Kirche)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51213562,
+          47.41548945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170733",
+        "name": "Brunnen (Schulhaus Gubel A und B)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54125505,
+          47.40801709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170815",
+        "name": "Brunnen (Schulhaus Looren A)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59580154,
+          47.36099647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170806",
+        "name": "Nordseite, Röhrenbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49641513,
+          47.398247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170751",
+        "name": "Brunnen (Freibad Auhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57053331,
+          47.40837764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170899",
+        "name": "Brunnen (Friedhof Nordheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52847174,
+          47.40759489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170930",
+        "name": "Brunnen (Friedhof Eichbühl)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47057804,
+          47.38384228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170928",
+        "name": "Brunnen (Friedhof Eichbühl)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47045816,
+          47.38614718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170933",
+        "name": "Brunnen (Friedhof Eichbühl)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47302446,
+          47.38520283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171004",
+        "name": "Trinkbrunnen Leutschenpark",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55593694,
+          47.41710364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170723",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Brunnen_(Badanstalt_Wollishofen)_2.jpg/350px-Brunnen_(Badanstalt_Wollishofen)_2.jpg",
+        "name": "Fountain Badeanstalt Wollishofen 2",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53746439,
+          47.34113426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170669",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51286115,
+          47.3581825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170914",
+        "name": "Brunnen (Epileptische Anstalt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56925621,
+          47.34927327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170737",
+        "name": "Brunnen (Schulhaus Kügeliloo)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52874066,
+          47.41064729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171049",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Brunnen_beim_Obergericht.jpg/350px-Brunnen_beim_Obergericht.jpg",
+        "name": "Q55171049",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54672949,
+          47.3713914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170916",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETH_Entrance_Hall_-_panoramio.jpg/350px-ETH_Entrance_Hall_-_panoramio.jpg",
+        "name": "Brunnen (im Gebäude der ETH)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5480914,
+          47.37644256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170745",
+        "name": "Brunnen (Freibad Allenmoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53988387,
+          47.40436602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170748",
+        "name": "Brunnen (Freibad Allenmoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53893484,
+          47.40400702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170911",
+        "name": "Brunnen (Bürgerasyl)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54560423,
+          47.37807039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170939",
+        "name": "Brunnen (Schulhaus Apfelbaum)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55534823,
+          47.40653239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170917",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Brunnen_auf_dem_Gelende_der_Bungertwies_Schule.jpg/350px-Brunnen_auf_dem_Gelende_der_Bungertwies_Schule.jpg",
+        "name": "Brunnen (Schulhaus Bungertwies)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56033535,
+          47.37197654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170946",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Friedhof_Enzenbühl_2.jpg/350px-Friedhof_Enzenbühl_2.jpg",
+        "name": "2nd Fountain Cemetary Enzenbühl",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58255841,
+          47.34955642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170672",
+        "name": "Q55170672",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54482232,
+          47.37042708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170721",
+        "name": "Q55170721",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57565245,
+          47.35865555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170902",
+        "name": "Q55170902",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52384998,
+          47.34558359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170900",
+        "name": "Q55170900",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52454907,
+          47.34706206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170904",
+        "name": "Q55170904",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5450602,
+          47.38932175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170922",
+        "name": "Q55170922",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56913389,
+          47.36757766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170923",
+        "name": "Q55170923",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.585569,
+          47.35842383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170920",
+        "name": "Q55170920",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53733325,
+          47.41349316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171039",
+        "name": "Q55171039",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50163346,
+          47.42312669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171042",
+        "name": "Q55171042",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50690845,
+          47.41537299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171041",
+        "name": "Q55171041",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50827331,
+          47.41476569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170986",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/GZ_Hottingen_2_Horizontal.jpg/350px-GZ_Hottingen_2_Horizontal.jpg",
+        "name": "Brunnen (Gemeindeplatz Hottingen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55602532,
+          47.36955311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170997",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/20190621BrunnenSpielplatzNebenChinaGarten.jpg/350px-20190621BrunnenSpielplatzNebenChinaGarten.jpg",
+        "name": "Brunnen (Blatterwiese, beim Chinagarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55157579,
+          47.35523066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170988",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Zürich_-_Enge_-_Springbrunnen_-_Hafen_2010-08-26_18-36-12.JPG/350px-Zürich_-_Enge_-_Springbrunnen_-_Hafen_2010-08-26_18-36-12.JPG",
+        "name": "Brunnen (Aquaretum)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53734704,
+          47.36047967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170682",
+        "name": "Brunnen (Krankenheim Entlisberg, beim Personalhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52667362,
+          47.33423981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170684",
+        "name": "Brunnen (Krankenheim Entlisberg, beim Heimtrakt)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52766441,
+          47.33421449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170952",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53282685,
+          47.42171467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170953",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53411777,
+          47.42275061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170959",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53485514,
+          47.42289743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170956",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53399164,
+          47.42298367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170963",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53635675,
+          47.42154405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170960",
+        "name": "Brunnen (Friedhof Seebach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53475371,
+          47.42257341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170966",
+        "name": "Brunnen (Friedhof Affoltern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50956867,
+          47.42362018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170968",
+        "name": "Brunnen (Friedhof Affoltern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51062487,
+          47.42334982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171061",
+        "name": "Brunnen (Wasserspiel)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48600807,
+          47.38748747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170687",
+        "name": "Brunnen (Kath.Kirchenstiftung Maria Hilf)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51751855,
+          47.33302553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170742",
+        "name": "Brunnen (Freibad Letzigraben)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49922519,
+          47.37921006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170743",
+        "name": "Brunnen (Freibad Letzigraben)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50013303,
+          47.37947915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170924",
+        "name": "Brunnen (Kantonsschule Freudenberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5278641,
+          47.36495114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170964",
+        "name": "Brunnen (Friedhof Albisrieden)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48109818,
+          47.37935822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170989",
+        "name": "Brunnen (Maneggweg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51276462,
+          47.33496768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170999",
+        "name": "Brunnen (bei Waldhütte Höhe Abzweiger Egglenweg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.61910273,
+          47.35559063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171001",
+        "name": "Brunnen (Wasserbecken Leutschenpark)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55553498,
+          47.41725726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171018",
+        "name": "Brunnen (Freibad Letzigraben)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.500824,
+          47.38005019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171020",
+        "name": "Brunnen (Freibad Letzigraben)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50090307,
+          47.37997881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170675",
+        "name": "Brunnen (Kath. Kirchgemeindehaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50281668,
+          47.40108041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170992",
+        "name": "Brunnen (Überbauung Werdwies)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48684154,
+          47.396055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170884",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Brunnen_(Hochhaus_zur_Schanze).jpg/350px-Brunnen_(Hochhaus_zur_Schanze).jpg",
+        "name": "Brunnen (Hochhaus zur Schanze)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53536522,
+          47.37051693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169214",
+        "name": "Brunnen (Schulhaus Entlisberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52781463,
+          47.33743432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169216",
+        "name": "Brunnen (Schulhaus Entlisberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52711569,
+          47.33787738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169242",
+        "name": "Brunnen (Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51759935,
+          47.3761577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169209",
+        "name": "Trinkbrunnen SWW Moos",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53094239,
+          47.33007943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169100",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Brunnen_Spielwiese.jpg/350px-Brunnen_Spielwiese.jpg",
+        "name": "Brunnen (Spielwiese)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55436472,
+          47.35606404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169224",
+        "name": "Brunnen (Schulhaus Leimbach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5166157,
+          47.3334415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170854",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/BrunnenVillaHohenbuhl.jpg/350px-BrunnenVillaHohenbuhl.jpg",
+        "name": "Q55170854",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55080484,
+          47.36635435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170821",
+        "name": "Brunnen (beim Friedhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6025711,
+          47.36231594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170849",
+        "name": "Brunnen (Friedhof Schwamendingen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57530935,
+          47.40266767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169247",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Brunnen_Schneckenmannstrasse_Ecke_Zürichbergstrasse.jpg/350px-Brunnen_Schneckenmannstrasse_Ecke_Zürichbergstrasse.jpg",
+        "name": "Brunnen (Zürichbergstrasse 58)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55929132,
+          47.37516989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169182",
+        "name": "Brunnen (Schulhaus Waidhalde, Turnhalle)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52502492,
+          47.39754689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169198",
+        "name": "Brunnen (Schulschwimmanlage Kügeliloo)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52864263,
+          47.41092194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169255",
+        "name": "Brunnen (Schulhaus Untermoos)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48276833,
+          47.3808408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169130",
+        "name": "Brunnen (Belvoirpark)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5330215,
+          47.35615925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169129",
+        "name": "Brunnen (Belvoirpark)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53302465,
+          47.35634616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169184",
+        "name": "Brunnen (Ortsmuseum, Haus Sasella)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53720828,
+          47.33812663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169252",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Brunnen_Zeltweg.jpg/350px-Brunnen_Zeltweg.jpg",
+        "name": "Brunnen Zeltweg 30",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55152264,
+          47.36801835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169277",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Fountain_Rämi_Strasse.jpg/350px-Fountain_Rämi_Strasse.jpg",
+        "name": "Fountain in the courtyard of \"Garden House\"",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.546861111,
+          47.367888888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169102",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Brunnen_Elektrowattgebäude.jpg/350px-Brunnen_Elektrowattgebäude.jpg",
+        "name": "Fountain by Elektowattgebäude",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55000547,
+          47.35766033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169180",
+        "name": "Pumpbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52927368,
+          47.3417387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169162",
+        "name": "Q55169162",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56128056,
+          47.40341325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169201",
+        "name": "Q55169201",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51241368,
+          47.33420642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169088",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Brunnen_Strandbad_Tiefenbrunnen_3.jpg/350px-Brunnen_Strandbad_Tiefenbrunnen_3.jpg",
+        "name": "Fountain Lake Side Beach Tiefenbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55482198,
+          47.35318718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170827",
+        "name": "Brunnen (hinter Gutstrasse 212)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50180815,
+          47.37560951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170846",
+        "name": "Brunnen (Friedhof Affoltern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50876441,
+          47.42446857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170859",
+        "name": "Brunnen (Schulhaus Riedenhalden)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48675509,
+          47.40788781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169211",
+        "name": "Springbrunnen SWW Moos",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53046592,
+          47.33000564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170844",
+        "name": "Brunnen (Friedhof Fluntern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57209431,
+          47.38343362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170862",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Brunnen_Villa_Tobler_Garten.jpg/350px-Brunnen_Villa_Tobler_Garten.jpg",
+        "name": "Fountain (garden of Villa Tobler)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54678103,
+          47.36994187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169188",
+        "name": "Brunnen (bei Kirchgemeindehaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.57435598,
+          47.40293513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169222",
+        "name": "Brunnen (Sportplatz Utogrund)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49761622,
+          47.37842903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169234",
+        "name": "Brunnen (beim Zugang zum Kindergartengebäude)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51341174,
+          47.33006643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169139",
+        "name": "Brunnen (Kirche)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53261257,
+          47.34315794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169601",
+        "name": "Brunnen (Schulhaus In der Ey)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48788027,
+          47.37367665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169669",
+        "name": "Brunnen (Schulhaus Altweg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49249503,
+          47.37234809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169150",
+        "name": "Brunnen (Kilchbergstrasse 50)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53544379,
+          47.33927648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169527",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Brunnen_(GZ_Wollishofen).jpg/350px-Brunnen_(GZ_Wollishofen).jpg",
+        "name": "Brunnen (GZ Wollishofen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53594769,
+          47.3451907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169083",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Strandbad_Tiefenbrunnen_2010-10-05_17-02-26.JPG/350px-Strandbad_Tiefenbrunnen_2010-10-05_17-02-26.JPG",
+        "name": "Strandbad Tiefenbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55576601,
+          47.35246215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169625",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Dragonerbrunnen_01.jpg/350px-Dragonerbrunnen_01.jpg",
+        "name": "Dragonerbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52041468,
+          47.35097751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169705",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Klosbachstrasse_Brunnen.jpg/350px-Klosbachstrasse_Brunnen.jpg",
+        "name": "Emergency fountain",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5567774,
+          47.36602172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169123",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Fountain_Wonneberg.jpg/350px-Fountain_Wonneberg.jpg",
+        "name": "Fountain Wonneberg",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56360944,
+          47.35390587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169049",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Brunnen_(Kindergarten).jpg/350px-Brunnen_(Kindergarten).jpg",
+        "name": "Brunnen (Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53102365,
+          47.35989096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169693",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Brunnen_Weinbergstrasse_Ecke_Steinhausweg.jpg/350px-Brunnen_Weinbergstrasse_Ecke_Steinhausweg.jpg",
+        "name": "Emergency fountain",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54347942,
+          47.38343804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169122",
+        "name": "Q55169122",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56387318,
+          47.35394982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169534",
+        "name": "Q55169534",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47809407,
+          47.41453606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169080",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Brunnen_Strandbad_Tiefenbrunnen_2.jpg/350px-Brunnen_Strandbad_Tiefenbrunnen_2.jpg",
+        "name": "Fountain Lake Side Beach Tiefenbrunnen 2",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55633248,
+          47.35288263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169761",
+        "name": "Brunnen (UNI Irchel)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5503773,
+          47.39949004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169056",
+        "name": "Dorfbrunnen Witkon",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59550358,
+          47.35706381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169621",
+        "name": "Brunnen (Schulhaus Maienstrasse)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52929506,
+          47.41016731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169663",
+        "name": "Brunnen (Kindergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5084064,
+          47.42296125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169952",
+        "name": "Brunnen (Altersheim Tiergarten)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5102415,
+          47.36476373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169953",
+        "name": "Brunnen (Rütihof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47537588,
+          47.41351911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169998",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537019,
+          47.3789015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170000",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53693724,
+          47.37876125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170006",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53676844,
+          47.37847641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170009",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53668705,
+          47.37833501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170026",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53829439,
+          47.37856525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169969",
+        "name": "Brunnen (Altersheim Oberstrass)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54718319,
+          47.39314329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170016",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/ZHB_G._4_%26_5.jpg/350px-ZHB_G._4_%26_5.jpg",
+        "name": "Drinking Fountain at Zurich Train Station",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53804095,
+          47.37813117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169633",
+        "name": "Riesbachbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55482366,
+          47.36340688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169659",
+        "name": "Försterbrunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59118647,
+          47.37420549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169542",
+        "name": "Q55169542",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59748435,
+          47.36719899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169921",
+        "name": "Q55169921",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48226693,
+          47.40944886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169935",
+        "name": "Q55169935",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55870503,
+          47.38393944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169943",
+        "name": "Q55169943",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56324141,
+          47.41527891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169947",
+        "name": "Q55169947",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49926277,
+          47.36017505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169957",
+        "name": "Q55169957",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56283161,
+          47.37615249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169960",
+        "name": "Q55169960",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49664649,
+          47.40170296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169965",
+        "name": "Q55169965",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49627976,
+          47.38664077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169979",
+        "name": "Q55169979",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55258607,
+          47.38074617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170036",
+        "name": "Q55170036",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59637665,
+          47.35409504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169972",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/20190530_1500Soneggstrasse56Brunnen.jpg/350px-20190530_1500Soneggstrasse56Brunnen.jpg",
+        "name": "Brunnen Sonnegg 56",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54591328,
+          47.38113798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169995",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/20190513_15BrunnenHB_Gleis14_15westlSihl.jpg/350px-20190513_15BrunnenHB_Gleis14_15westlSihl.jpg",
+        "name": "Brunnen (Perronanlage Hauptbahnhof Gleis 14/15 W)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53709165,
+          47.37904893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169991",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/USZ_Klinik_für_Neurologie_Eingang_Spöndlistrasse.jpg/350px-USZ_Klinik_für_Neurologie_Eingang_Spöndlistrasse.jpg",
+        "name": "Gibber by Neurologie Clinic",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54925621,
+          47.37948208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169954",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fountain_Villa_Patumbah.jpg/350px-Fountain_Villa_Patumbah.jpg",
+        "name": "Fountain Villa Patumbah",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55948834,
+          47.35681911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169549",
+        "name": "Brunnen (Schulhaus Wollishofen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53402109,
+          47.34243154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169575",
+        "name": "Brunnen (Wasserspiel)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54452396,
+          47.41062082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169963",
+        "name": "Brunnen (Im Hofe)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49101927,
+          47.38973612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169923",
+        "name": "Brunnen (IBM)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48756809,
+          47.3913066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169925",
+        "name": "Brunnen (IBM)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48739075,
+          47.39135421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169930",
+        "name": "Brunnen (Sportplatz)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53318408,
+          47.40799905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169928",
+        "name": "Brunnen (Sportplatz)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53580718,
+          47.40800047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169974",
+        "name": "Brunnen (bei Kirche)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49190891,
+          47.376225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169591",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BrunnenSchulhausIlgenDetail.jpg/350px-BrunnenSchulhausIlgenDetail.jpg",
+        "name": "Brunnen (unterhalb Turnhalle)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.560502,
+          47.36871197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170003",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Brunnen_HBZH.jpg/350px-Brunnen_HBZH.jpg",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53685163,
+          47.37862199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170013",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/20190415BrunnenHB_Gleis4westlSihl.jpg/350px-20190415BrunnenHB_Gleis4westlSihl.jpg",
+        "name": "Brunnen (Perronanlage Hauptbahnhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53660686,
+          47.37820461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169987",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Neonbrunnen.jpg/350px-Neonbrunnen.jpg",
+        "name": "Q55169987",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53742772,
+          47.37015571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170033",
+        "name": "Brunnen (Wasserspiel Elvia-Versicherung)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53588347,
+          47.36773324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170031",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/20190415_Brunnen_HB_Zuerich_Gleis16_17oestlich_Sihl.jpg/350px-20190415_Brunnen_HB_Zuerich_Gleis16_17oestlich_Sihl.jpg",
+        "name": "Brunnen (Perronanlage Hauptbahnhof Gleis 16/17 W)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53845565,
+          47.3788369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169551",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Uni_Spital_Zürich_2.jpg/350px-Uni_Spital_Zürich_2.jpg",
+        "name": "Double basin Fountain",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55166529,
+          47.37594784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169867",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kluspark_Brunnen_2.jpg/350px-Kluspark_Brunnen_2.jpg",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5647984,
+          47.36440853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169815",
+        "name": "Brunnen (Schulhaus Luchswiesen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58287166,
+          47.40418736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169817",
+        "name": "Brunnen (Schulhaus Luchswiesen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58343592,
+          47.40423295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169829",
+        "name": "Brunnen (Städtische Ueberbauung)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49713587,
+          47.36971735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169915",
+        "name": "Brunnen (Altersheim Sydefädeli)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51761547,
+          47.39543122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169912",
+        "name": "Brunnen (Krankenheim Witikon)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.60247333,
+          47.35492836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169913",
+        "name": "Brunnen (Altersheim Sydefädeli)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51734521,
+          47.39517506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q56380328",
+        "name": "Q56380328",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.59251093,
+          47.40275187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169803",
+        "name": "Brunnen (Tierspital)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55179093,
+          47.40040969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169825",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48693569,
+          47.37382474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169873",
+        "name": "Brunnen (Schulhaus Buchlern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4784381,
+          47.38398148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169876",
+        "name": "Brunnen (Schulhaus Buchlern)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47928923,
+          47.38402266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169811",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Brunnen_Wasserversorgung_ZH.jpg/350px-Brunnen_Wasserversorgung_ZH.jpg",
+        "name": "Fountain Wasserversorgung ZH",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5731094,
+          47.34945976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169813",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Brunnen_(Schulhaus_Fluntern).jpg/350px-Brunnen_(Schulhaus_Fluntern).jpg",
+        "name": "Fountain at Fluntern School",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55875662,
+          47.37601751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169839",
+        "name": "Brunnen (Altersheim Mittelleimbach)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51497675,
+          47.3259268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169909",
+        "name": "Brunnen (Universität Strickhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5482881,
+          47.39738288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171119",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Münsterhofbrunnen_klein.jpg/350px-Münsterhofbrunnen_klein.jpg",
+        "name": "Q55171119",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54059635,
+          47.37008307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169900",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lenggfussweg.jpg/350px-Lenggfussweg.jpg",
+        "name": "Fountain Lenggfussweg",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5748961,
+          47.35254197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169848",
+        "name": "Brunnen (Klinik Burghölzli)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56872568,
+          47.35385837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169895",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Brunnen_vor_der_Uni_Zürich.jpg/350px-Brunnen_vor_der_Uni_Zürich.jpg",
+        "name": "Brunnen (Eingang Universität Zürich)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54808902,
+          47.37473133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169898",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Plaza_Hotel_Brunnen.jpg/350px-Plaza_Hotel_Brunnen.jpg",
+        "name": "Brunnen (Haus Publicitas)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54344032,
+          47.37730809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169865",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Alterszentrum_Klus_Park_Brunnen_2.jpg/350px-Alterszentrum_Klus_Park_Brunnen_2.jpg",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56429054,
+          47.36481007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169871",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Alterszentrum_Klus_Park_Brunnen.jpg/350px-Alterszentrum_Klus_Park_Brunnen.jpg",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56487762,
+          47.36490627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171121",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Münsterhof_-_Brunnen_DSC_2121_2018-09-05_16-03-02.jpg/350px-Münsterhof_-_Brunnen_DSC_2121_2018-09-05_16-03-02.jpg",
+        "name": "Q55171121",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54064714,
+          47.37007591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171130",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bahnhofstrasse_Paradeplatz.jpg/350px-Bahnhofstrasse_Paradeplatz.jpg",
+        "name": "Q55171130",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53920769,
+          47.36973128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169823",
+        "name": "Q55169823",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56363438,
+          47.3793286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169853",
+        "name": "Q55169853",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5102014,
+          47.4189081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169878",
+        "name": "Q55169878",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52936841,
+          47.41246092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169887",
+        "name": "Q55169887",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51949608,
+          47.36417389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169891",
+        "name": "Q55169891",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52159832,
+          47.33941579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169893",
+        "name": "Q55169893",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48049635,
+          47.41203292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169908",
+        "name": "Q55169908",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50689763,
+          47.40163614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171093",
+        "name": "Q55171093",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53659211,
+          47.39248294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171099",
+        "name": "Q55171099",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50987588,
+          47.33700381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171108",
+        "name": "Q55171108",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51269286,
+          47.38819648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171117",
+        "name": "Q55171117",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53876481,
+          47.3732063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169869",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Kluspark_Brunnen.jpg/350px-Kluspark_Brunnen.jpg",
+        "name": "Brunnen (Altersheim)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5653436,
+          47.36447392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169831",
+        "name": "Brunnen (Überbauung Hardau)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50985501,
+          47.38034912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169885",
+        "name": "Brunnen (Ueberbauung Heuried)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51006759,
+          47.36909592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55171136",
+        "name": "Brunnen (Kongresshaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53798573,
+          47.3658087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169863",
+        "name": "Brunnen (bei Kirche)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51616096,
+          47.33270934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169851",
+        "name": "Brunnen (Kantonale Gehörlosen-Schule)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5244308,
+          47.34045548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166831",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/20190530_1446BrunnenKlausiussteig.jpg/350px-20190530_1446BrunnenKlausiussteig.jpg",
+        "name": "Brunnen Clausiussteig",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54620142,
+          47.37912648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170872",
+        "name": "Brunnen (Schulhaus Im Gut)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50405966,
+          47.37216614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170282",
+        "name": "Brunnen (Schulhaus Ahornstrasse 8)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56722873,
+          47.40461107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170879",
+        "name": "Aqui-Brunnen",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52590452,
+          47.3648467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170301",
+        "name": "Brunnen (Schulhaus Mattenhof)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.58860711,
+          47.39864244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55166416",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Brunnen_Grünegasse_Ecke_Carmenstrasse.jpg/350px-Brunnen_Grünegasse_Ecke_Carmenstrasse.jpg",
+        "name": "Fountain Grüngasse",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.52583046,
+          47.37299588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169790",
+        "name": "Q55169790",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49342859,
+          47.43081971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170047",
+        "name": "Q55170047",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50533999,
+          47.39665651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170045",
+        "name": "Q55170045",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53511026,
+          47.34241179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170877",
+        "name": "Q55170877",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.48698914,
+          47.37426911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170041",
+        "name": "Brunnen (Schulhaus)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.47906597,
+          47.41221537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170286",
+        "name": "Brunnen (Schulhaus Saatlen)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56224201,
+          47.40823581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170284",
+        "name": "Brunnen (Schulhaus Riedenhalden)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51260284,
+          47.41842224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55169783",
+        "name": "Brunnen (Kirche St. Martin)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.56475684,
+          47.37828453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_wikidata": "Q55170873",
+        "name": "Brunnen (Villa Schönberg)",
+        "mergedOn": "none"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53041084,
+          47.35951541
         ]
       }
     }
