@@ -1,6 +1,6 @@
 {
   "name": "open2json",
-  "version": "2.1.6",
+  "version": "3.2.0",
   "description": "Collect and merge elements from wikidata and OpenStreetMap",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
@@ -51,7 +51,6 @@
     "lodash": "^4.17.15",
     "md5": "^2.2.1",
     "query-overpass": "^1.5.4",
-    "wikidata-sdk": "^7.0.7",
-    "wikimedia-commons-file-path": "^1.2.0"
+    "wikidata-sdk": "^7.0.7"
   }
 }

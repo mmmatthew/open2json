@@ -7,13 +7,21 @@ var fs = require('fs');
 let provider = new open2json.Provider(); // etc.
 
 const bbox = {
-    latMin: 51,
-    lonMin: 14,
-    latMax: 55,
-    lonMax: 15
+    latMin: 47,
+    lonMin: 8,
+    latMax: 48,
+    lonMax: 9
 }
+
+const baselBoundingBox = {
+    latMax: 47.7,
+    latMin: 47.5,
+    lonMax: 7.7,
+    lonMin: 7.5,
+  };
+
 provider.query(['wikidata', 'osm'], bbox).then(data=>{
-    fs.writeFile('allinone.json', JSON.stringify(data, null, 2), (err)=>{
+    fs.writeFile('scripts/allinone.json', JSON.stringify(data, null, 2), (err)=>{
         if(err) console.error(err);
         console.info('done');
     })

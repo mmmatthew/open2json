@@ -45,20 +45,23 @@ export function queryWikidata(
 }
 
 /**
- * build query string for wikidata
+ * build query string for fountains in Wikidata. Do not return demolished fountains.
  * @param bbox Bounding box in which to query
  * @param options query options
  */
 export function buildWikidataQueryString(bbox: BoundingBox, options?: ProviderOptions) {
   options = Object.assign(defaultOptions, options);
   const queryString = `
-SELECT DISTINCT ?place ?placeLabel ?image ?location
+SELECT DISTINCT ?place ?placeLabel ?image ?location ?ispotable
 WHERE
         {
           
 
           # The results of the spatial query are limited to instances or subclasses of entity classes
           FILTER (${options.wdEntityClasses.map(eC => `EXISTS { ?place wdt:P31/wdt:P279* wd:${eC} }`).join(' || ')}).
+
+          # Do not include fountains that have the "demolished date" property
+          FILTER ( !BOUND(?destruction_date)).
           
           SERVICE wikibase:box {
             # this service allows points within a box to be queried (https://en.wikibooks.org/wiki/SPARQL/SERVICE_-_around_and_box) 
@@ -66,6 +69,9 @@ WHERE
             bd:serviceParam wikibase:cornerWest "Point(${bbox.lonMin} ${bbox.latMin})"^^geo:wktLiteral.
             bd:serviceParam wikibase:cornerEast "Point(${bbox.lonMax} ${bbox.latMax})"^^geo:wktLiteral.
           } .
+
+          # boolean indicator of potability
+          BIND (EXISTS { ?place wdt:P31/wdt:P279* wd:Q1630622 } as ?ispotable)
           
           # the wikibase:label service allows the label to be returned easily. The list of languages provided are fallbacks: if no English label is available, use German etc.
           SERVICE wikibase:label {
@@ -74,6 +80,7 @@ WHERE
           
           # It is important to place the OPTIONAL after the filters, otherwise the query times out
           OPTIONAL{ ?place wdt:P18 ?image. }
+          OPTIONAL { ?place wdt:P576 ?detruction_date}.
         }`;
 
   return queryString;

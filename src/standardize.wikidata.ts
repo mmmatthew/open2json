@@ -40,6 +40,7 @@ function createFeature(obj: any, imageWidth: number): Feature {
       id_wikidata: obj.place.value.split('entity/')[1],
       image: mediaName,
       name: obj.placeLabel.value,
+      ispotable: obj.ispotable.value,
     },
     geometry: {
       type: 'Point',

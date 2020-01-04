@@ -15,11 +15,6 @@ export function conflate(
   wikidataGeoJson: FeatureCollection,
   options: ProviderOptions = defaultOptions,
 ): FeatureCollection {
-  // if osmGeoJson has no fountains, return empty geojson
-  if (osmGeoJson.features.length === 0) {
-    return osmGeoJson;
-  }
-
   // matching and property merging
   matchByQID(wikidataGeoJson, osmGeoJson);
   matchByLocation(wikidataGeoJson, osmGeoJson, options.conflateRadius);
@@ -38,6 +33,11 @@ function matchByQID(wikidataGeoJson: FeatureCollection, osmGeoJson: FeatureColle
         // document merging
         fOsm.properties.mergedOn = 'id_wikidata';
         fwiki.properties.mergedOn = 'id_wikidata';
+
+        // if OSM lists the fountain as drinking water but not wikidata, make a comment
+        if (fwiki.properties.ispotable === 'false') {
+          fOsm.properties.comments = ` Add instance of 'drinking fountain' to wikidata item ${fOsm.properties.id_wikidata} .`;
+        }
       }
     });
   });
@@ -50,37 +50,66 @@ function matchByLocation(
 ): void {
   // loop through wikidata and find matches for each
   wikidataGeoJson.features.forEach(fwiki => {
-    const distances = osmGeoJson.features.map(fosm => {
-      // don't consider fountain if already matched
-      if (!fosm.properties || (fosm.properties && fosm.properties.mergedOn === 'id_wikidata')) {
-        return 100;
-        // otherwise compute distance
-      } else {
-        return haversine((fosm.geometry as Point).coordinates, (fwiki.geometry as Point).coordinates, {
-          unit: 'meter',
-          format: '[lon,lat]',
-        });
+    // only consider wikidata fountains that have not been matched
+    if (fwiki.properties && fwiki.properties.mergedOn !== 'id_wikidata') {
+      const distances = osmGeoJson.features.map(fosm => {
+        // don't consider osm fountain if already matched
+        if (!fosm.properties || (fosm.properties && fosm.properties.mergedOn)) {
+          return 100;
+          // otherwise compute distance
+        } else {
+          return haversine((fosm.geometry as Point).coordinates, (fwiki.geometry as Point).coordinates, {
+            unit: 'meter',
+            format: '[lon,lat]',
+          });
+        }
+      });
+      // copy over data from nearest if nearer than set distance
+      const index = indexOfSmallest(distances);
+      if (index >= 0) {
+        const distance = distances[index];
+        const fOsm = osmGeoJson.features[index];
+
+        // copy data over, only if not null and if distance lower than set value
+        if (fOsm.properties && fwiki.properties && distance <= conflateRadius) {
+          fOsm.properties.image = fwiki.properties.image || fOsm.properties.image;
+          fOsm.properties.name = fwiki.properties.name || fOsm.properties.name;
+          fOsm.properties.id_wikidata = fwiki.properties.id_wikidata;
+
+          // document merging
+          fOsm.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
+          fwiki.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
+
+          // if OSM lists the fountain as drinking water but not wikidata, make a comment
+          if (fwiki.properties.ispotable === 'false') {
+            fOsm.properties.comments = ` Add instance of "drinking fountain" to wikidata item ${fOsm.properties.id_wikidata} .`;
+          }
+
+          // if no match is found
+        } else if (distance > conflateRadius && fwiki.properties && fwiki.properties.ispotable === 'true') {
+          // delete unused properties
+          delete fwiki.properties.ispotable;
+          fwiki.properties.mergedOn = 'none';
+          // copy whole fountain over
+          osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
+        }
+      } else if (fwiki.properties && fwiki.properties.ispotable === 'true') {
+        // if no osm fountains exist
+        // delete unused properties
+        delete fwiki.properties.ispotable;
+        fwiki.properties.mergedOn = 'none';
+        // copy whole fountain over
+        osmGeoJson.features.push(JSON.parse(JSON.stringify(fwiki)));
       }
-    });
-    // copy over data from nearest if nearer than set distance
-    const index = indexOfSmallest(distances);
-    const distance = distances[index];
-    const fOsm = osmGeoJson.features[index];
-
-    // copy data over, only if not null and if distance lower than set value
-    if (fOsm.properties && fwiki.properties && distance <= conflateRadius) {
-      fOsm.properties.image = fwiki.properties.image || fOsm.properties.image;
-      fOsm.properties.name = fwiki.properties.name || fOsm.properties.name;
-      fOsm.properties.id_wikidata = fwiki.properties.id_wikidata;
-
-      // document merging
-      fOsm.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
-      fwiki.properties.mergedOn = `coordinates: ${distance.toFixed(2)} m`;
     }
   });
 }
 
 function indexOfSmallest(a: number[]): number {
+  if (a.length === 0) {
+    return -1;
+  }
+
   let lowest = 0;
   for (let i = 1; i < a.length; i++) {
     if (a[i] < a[lowest]) {
