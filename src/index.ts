@@ -1,6 +1,7 @@
 import { FeatureCollection } from 'geojson';
 import * as _ from 'lodash';
 import { conflate } from './conflate';
+import { getUrlFromMediaName } from './convert.wikimedia.strings';
 import { defaultOptions } from './defaults';
 import { queryOsm } from './query.osm';
 import { queryWikidata } from './query.wikidata';
@@ -9,7 +10,7 @@ import { standardizeOsm } from './standardize.osm';
 import { standardizeWikidata } from './standardize.wikidata';
 import { BoundingBox, ProviderOptions } from './types';
 
-export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata };
+export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata , getUrlFromMediaName};
 
 export class Provider {
   private options = defaultOptions;

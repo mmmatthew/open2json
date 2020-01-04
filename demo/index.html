@@ -125,6 +125,7 @@
             f = e.features[0];
             // show popup when click a water spot
             var coordinates = f.geometry.coordinates.slice();
+            var imageUrl = open2json.getUrlFromMediaName(f.properties.image.split('File:')[1], 120);
             var description = `
             <h3>${f.properties.name}</h3>
             <p>
@@ -132,7 +133,7 @@
                 Wikidata id: ${f.properties.id_wikidata}<br/> 
                 ${f.properties.mergedOn?`merged on ${f.properties.mergedOn}`:'unmerged'}
                 </p>
-                <img src='${f.properties.image || ''}' width='120px'>
+                <img src='${imageUrl || ''}' width='120px'>
             `;
             
             // Ensure that if the map is zoomed out such that multiple

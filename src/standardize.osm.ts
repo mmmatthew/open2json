@@ -11,7 +11,7 @@ export function standardizeOsm(data: FeatureCollection): FeatureCollection {
   data.features.forEach(f => {
     // create a new property object and populate it with the existing data according to the "standard_properties"
     if (f.properties) {
-      let mediaName = null;
+      let mediaName;
       // only use image URL if the URL is from wikimedia commons
       if(f.properties.hasOwnProperty('image') && f.properties.image.includes('wikimedia.org')){
         mediaName = getMediaNameFromUrl(f.properties.image);
