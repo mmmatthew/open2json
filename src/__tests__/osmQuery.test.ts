@@ -1,7 +1,7 @@
 import { Provider } from '../index';
 import { buildOsmQueryString } from '../query.osm';
-import { baselBoundingBox, osmGeoJson, zuriBoundingBox } from '../resources';
-import { standardizeOsm } from '../standardize.osm';
+import { baselBoundingBox } from '../resources';
+
 
 jest.setTimeout(30000);
 
@@ -19,12 +19,4 @@ test('Osm query returns geoJson', () => {
       expect(data).toHaveProperty('features');
     })
     .catch(error => console.log(error));
-});
-
-test('Standardize geojson', () => {
-  const standardizedJson = standardizeOsm(osmGeoJson);
-  expect(standardizedJson.features[0]).not.toHaveProperty('id');
-  expect(standardizedJson.features[0].properties).toHaveProperty('id_osm');
-  expect(standardizedJson.features[0].properties).toHaveProperty('name');
-  expect(standardizedJson.features[0].properties).toHaveProperty('image');
 });
