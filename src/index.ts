@@ -10,7 +10,7 @@ import { standardizeOsm } from './standardize.osm';
 import { standardizeWikidata } from './standardize.wikidata';
 import { BoundingBox, ProviderOptions } from './types';
 
-export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata , getUrlFromMediaName};
+export { conflate, queryOsm, queryWikidata, standardizeOsm, standardizeWikidata, getUrlFromMediaName };
 
 export class Provider {
   private options = defaultOptions;

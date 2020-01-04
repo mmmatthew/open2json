@@ -2,7 +2,6 @@ import { Provider } from '../index';
 import { buildOsmQueryString } from '../query.osm';
 import { baselBoundingBox } from '../resources';
 
-
 jest.setTimeout(30000);
 
 test('Build OSM query', () => {

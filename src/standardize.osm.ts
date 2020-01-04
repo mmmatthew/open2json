@@ -13,10 +13,10 @@ export function standardizeOsm(data: FeatureCollection): FeatureCollection {
     if (f.properties) {
       let mediaName;
       // only use image URL if the URL is from wikimedia commons
-      if(f.properties.hasOwnProperty('image') && f.properties.image.includes('wikimedia.org')){
+      if (f.properties.hasOwnProperty('image') && f.properties.image.includes('wikimedia.org')) {
         mediaName = getMediaNameFromUrl(f.properties.image);
-      // if there is a wikicommons name defined, use that (but only if it points to a  file, not a category)
-      }else if(f.properties.hasOwnProperty('wikimedia_commons') && f.properties.wikimedia_commons.includes('File:')){
+        // if there is a wikicommons name defined, use that (but only if it points to a  file, not a category)
+      } else if (f.properties.hasOwnProperty('wikimedia_commons') && f.properties.wikimedia_commons.includes('File:')) {
         // todo: get file url from file name
         mediaName = f.properties.wikimedia_commons;
       }
@@ -25,7 +25,6 @@ export function standardizeOsm(data: FeatureCollection): FeatureCollection {
         id_osm: f.properties.id || f.id,
         id_wikidata: f.properties.wikidata,
         image: mediaName,
-        
       };
       f.properties = newProps;
     }

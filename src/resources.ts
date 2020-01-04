@@ -63,61 +63,67 @@ export const osmGeoJsonWikiImage: FeatureCollection = {
       properties: {
         name: 'Fischermädchen-Brunnen',
         id: 'node/567050952',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ciudad_Banesco_%28entrada%29.jpg/245px-Ciudad_Banesco_%28entrada%29.jpg'
+        image:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ciudad_Banesco_%28entrada%29.jpg/245px-Ciudad_Banesco_%28entrada%29.jpg',
       },
       geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
-    }]
-  };
+    },
+  ],
+};
 
-
-  export const osmGeoJsonNonWikiImage: FeatureCollection = {
-    type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
+export const osmGeoJsonNonWikiImage: FeatureCollection = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      id: 'node/567050952',
+      properties: {
+        name: 'Fischermädchen-Brunnen',
         id: 'node/567050952',
-        properties: {
-          name: 'Fischermädchen-Brunnen',
-          id: 'node/567050952',
-          image: 'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg'
-        },
-        geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
-      }]
-    };
+        image:
+          'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg',
+      },
+      geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
+    },
+  ],
+};
 
-  export const osmGeoJsonWikiFileImage: FeatureCollection = {
-    type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
+export const osmGeoJsonWikiFileImage: FeatureCollection = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      id: 'node/567050952',
+      properties: {
+        name: 'Fischermädchen-Brunnen',
         id: 'node/567050952',
-        properties: {
-          name: 'Fischermädchen-Brunnen',
-          id: 'node/567050952',
-          wikimedia_commons: 'File:Sternplatz-tuebingen.jpg',
-          image: 'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg'
-        },
-        geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
-      }]
-    };
+        wikimedia_commons: 'File:Sternplatz-tuebingen.jpg',
+        image:
+          'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg',
+      },
+      geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
+    },
+  ],
+};
 
-  export const osmGeoJsonWikiCategory: FeatureCollection = {
-    type: 'FeatureCollection',
-    features: [
-      {
-        type: 'Feature',
+export const osmGeoJsonWikiCategory: FeatureCollection = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      id: 'node/567050952',
+      properties: {
+        name: 'Fischermädchen-Brunnen',
         id: 'node/567050952',
-        properties: {
-          name: 'Fischermädchen-Brunnen',
-          id: 'node/567050952',
-          wikimedia_commons: 'Category:City_walls_of_Erlangen',
-          image: 'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg'
-        },
-        geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
-      }]
-    };
+        wikimedia_commons: 'Category:City_walls_of_Erlangen',
+        image:
+          'https://www.panorama.com.ve/__export/1526490432365/sites/panorama/img/2018/05/16/banco-mercantil.jpg_1746926620.jpg',
+      },
+      geometry: { type: 'Point', coordinates: [7.5875386, 47.5512434] },
+    },
+  ],
+};
 
-    
 export const standardOsmGeoJson: FeatureCollection = {
   type: 'FeatureCollection',
   features: [
