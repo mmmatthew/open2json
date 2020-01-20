@@ -37,7 +37,10 @@ export function getMediaNameFromUrl(url: string) {
   }
 
   const safe = url.split('/').pop() as string;
-  const mediaName = encodeURIComponent(unsanitizeFilename(safe));
+  let mediaName = encodeURIComponent(unsanitizeFilename(safe));
+  if(!mediaName.startsWith('File')){
+    mediaName = 'File:' + mediaName;
+  }
   return mediaName;
 }
 
