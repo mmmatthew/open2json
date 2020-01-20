@@ -1,6 +1,6 @@
 {
   "name": "open2json",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Collect and merge elements from wikidata and OpenStreetMap",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
