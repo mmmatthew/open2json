@@ -125,7 +125,10 @@
             f = e.features[0];
             // show popup when click a water spot
             var coordinates = f.geometry.coordinates.slice();
-            var imageUrl = open2json.getUrlFromMediaName(f.properties.image.split('File:')[1], 120);
+            var imageUrl = '';
+            if(f.properties.image){
+                var imageUrl = open2json.getUrlFromMediaName(f.properties.image.split('File:')[1], 120);
+            }
             var description = `
             <h3>${f.properties.name}</h3>
             <p>
